@@ -1,13 +1,13 @@
 # Threepio [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-The protocol droid. This droid contains all of the protocols (shareable configurations) that are used within the Galaxy.
+This protocol droid contains all protocols (shareable configurations) that are used within the Galaxy.
 
 ## Installation
 
-Please check each README within the `packages/` directory for specific installation instructions.  However, the general process is:
+Please check the README for each configuration within the `packages` directory for specific installation instructions, however the general process is:
 
 ```bash
-npm install --save @theholocron/<lib>
+npm install --save-dev @theholocron/<lib>
 ```
 
 ## Table of Contents
@@ -26,22 +26,22 @@ npm install --save @theholocron/<lib>
 
 ## Usage
 
-Please check each README within the `packages/` directory for specific usage instructions.
+Check the README for each configuration within the `packages` directory for specific usage instructions.
 
 ## The Packages We Maintain
 
-- [babel-preset](./packages/babel-preset#readme) - A Babel preset for transpiling next generation Javascript in the Galaxy.
-- [browserslist-config](./packages/browserslist-config#readme) - A Browserslist configuration for all browsers and devices supported in the Galaxy.
-- [commitlint-config](./packages/commitlint-config#readme) - A CommitLint configuration for writing Git commits within the Galaxy.
-- [eslint-config](./packages/eslint-config#readme) - An ESLint configuration for writing well-formed Javascript within the Galaxy.
-- [jest-preset](./packages/jest-preset#readme) - A Jest preset for testing code within the Galaxy.
-- [lint-staged-config](./packages/lint-staged-config#readme) - 
-- [markdownlint-config](./packages/markdownlint-config#readme) - 
-- [postcss-config](./packages/postcss-config#readme) - 
-- [semantic-release-config](./packages/semantic-release-config#readme) - 
-- [storybook-config](./packages/storybook-config#readme) - 
-- [stylelint-config](./packages/stylelint-config#readme) - 
-- [webpack-config](./packages/webpack-config#readme) - 
+- [babel-preset](./packages/babel-preset#readme) - A Babel preset for transpiling next generation Javascript.
+- [browserslist-config](./packages/browserslist-config#readme) - A Browserslist configuration for all browsers and devices supported.
+- [commitlint-config](./packages/commitlint-config#readme) - A CommitLint configuration for writing Git commits.
+- [eslint-config](./packages/eslint-config#readme) - An ESLint configuration for writing well-formed Javascript.
+- [jest-preset](./packages/jest-preset#readme) - A Jest preset for testing code.
+- [lint-staged-config](./packages/lint-staged-config#readme) - A Lint Staged configuration for linting code that has been staged in Git.
+- [markdownlint-config](./packages/markdownlint-config#readme) - A MarkdownLint configuration for writing well-formatted documentation.
+- [postcss-config](./packages/postcss-config#readme) - A PostCSS configuration for processing (S)CSS.
+- [semantic-release-config](./packages/semantic-release-config#readme) - A Semantic Release configuration for releasing code.
+- [storybook-config](./packages/storybook-config#readme) - A Storybook configuration for developing React components.
+- [stylelint-config](./packages/stylelint-config#readme) - A StyleLint configuration for writing well-formed (S)CSS.
+- [webpack-config](./packages/webpack-config#readme) - A Webpack configuration for developing and bundling libraries.
 
 ## Where to Find Documentation [![Badge](https://github.com/storybookjs/brand/raw/master/badge/badge-storybook.svg?sanitize=true)](https://storybook.js.org/)
 

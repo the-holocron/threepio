@@ -1,7 +1,7 @@
 {
   "name": "@theholocron/lint-staged-config",
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/lint-staged-config#readme",
-  "description": "A Lint Staged configuration for linting code that has been staged in Git within the Galaxy",
+  "description": "A Lint Staged configuration for linting code that has been staged in Git within the Galaxy.",
   "author": "Newton Koumantzelis",
   "version": "0.1.0",
   "main": "index.js",

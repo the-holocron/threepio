@@ -183,7 +183,7 @@
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": [
       "always",
-      { "ignoreAtRules": ["if", "elseif"] }
+      { "ignoreAtRules": ["if", "else"] }
     ],
     "block-closing-brace-newline-before": "always",
     "block-closing-brace-space-after": "always-single-line",
@@ -232,7 +232,7 @@
       {
         "except": [ "after-same-name", "blockless-after-blockless", "first-nested" ],
         "ignore": [ "after-comment" ],
-        "ignoreAtRules": [ "else", "elseif", "include" ]
+        "ignoreAtRules": [ "else", "include" ]
       }
     ],
     "at-rule-name-case": "lower",
@@ -267,12 +267,7 @@
     "scss/at-mixin-named-arguments": "never",
     "scss/at-mixin-parentheses-space-before": "never",
     "scss/at-mixin-pattern": "^[a-z0-9\\-]+$",
-    "scss/at-rule-no-unknown": [
-      true,
-      { "ignoreAtRules": [
-        "/^elseif/"
-      ]}
-    ],
+    "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-colon-newline-after": null,
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
@@ -312,7 +307,6 @@
       { "ignoreInsideAtRules": [
         "function",
         "if",
-        "elseif",
         "else",
         "while",
         "each"

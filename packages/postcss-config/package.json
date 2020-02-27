@@ -20,6 +20,9 @@
   "jest": {
     "preset": "@theholocron/jest-preset"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint tests index.js",
     "test": "jest --coverage"

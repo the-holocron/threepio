@@ -20,6 +20,9 @@
     "preset": "./jest-preset.json",
     "rootDir": "."
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint tests",
     "test": "jest --coverage"

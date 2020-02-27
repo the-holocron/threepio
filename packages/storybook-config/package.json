@@ -24,6 +24,9 @@
   "jest": {
     "preset": "@theholocron/jest-preset"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint .",
     "test": "jest --coverage --passWithNoTests"

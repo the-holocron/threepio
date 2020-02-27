@@ -1,6 +1,5 @@
 {
   "plugins": [
-    "subsetcss",
     "stylelint-color-format",
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-declaration-strict-value",
@@ -359,8 +358,6 @@
         "ignoreKeywords": ["currentColor", "transparent", "inherit"]
       }
     ],
-
-    "subsetcss/config": "./subsetcss.js",
 
     "order/properties-order": [
       "display",

@@ -25,7 +25,7 @@ In your project `package.json` add the following:
 ```json
 {
   "stylelint": {
-    "extends": "@theholocron"
+    "extends": "@theholocron/stylelint-config"
   }
 }
 ```

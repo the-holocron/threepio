@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.1.0...@theholocron/stylelint-config@0.2.0) (2020-02-27)
+
+
+### Features
+
+* update to support dart-sass ([f063651](https://github.com/the-holocron/threepio/commit/f063651b93ec75dfd14e1ccf011f852e35286438))
+
+
+
+
+
 # 0.1.0 (2020-02-27)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.2.1...@theholocron/stylelint-config@0.3.0) (2020-02-27)
+
+
+### Features
+
+* add in support for initial keyword for value ([af74b5f](https://github.com/the-holocron/threepio/commit/af74b5f2587e435bcc77957b8b2b60234deddfc8))
+
+
+
+
+
 ## [0.2.1](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.2.0...@theholocron/stylelint-config@0.2.1) (2020-02-27)
 
 

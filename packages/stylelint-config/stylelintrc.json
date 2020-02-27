@@ -348,14 +348,14 @@
         "padding",
         "z-index",
         {
-          "ignoreValues": [ "transparent", "inherit", "/map-deep-get/", "currentColor", "0", "/nth/", "normal" ]
+          "ignoreValues": [ "transparent", "inherit", "initial", "/map-deep-get/", "currentColor", "0", "/nth/", "normal" ]
         }
       ]
     ],
 
     "scale-unlimited/declaration-strict-value": [
       ["/color/", "font-size", "z-index" ], {
-        "ignoreKeywords": ["currentColor", "transparent", "inherit"]
+        "ignoreKeywords": ["currentColor", "transparent", "inherit", "initial"]
       }
     ],
 

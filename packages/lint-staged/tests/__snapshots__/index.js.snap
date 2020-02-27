@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Configuration Lint Staged should render the configuration 1`] = `
+Object {
+  "linters": Object {
+    "src/**/*.js": Array [
+      "eslint --fix",
+      "git add",
+    ],
+    "src/**/*.scss": Array [
+      "stylelint --fix",
+      "git add",
+    ],
+  },
+}
+`;

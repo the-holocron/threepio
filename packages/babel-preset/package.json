@@ -1,0 +1,44 @@
+{
+  "name": "@theholocron/babel-preset",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/babel-preset#readme",
+  "description": "A Babel preset for transpiling next generation Javascript in the Galaxy.",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "babel.config.json",
+    "index.js"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "browserslist": [
+    "extends @theholocron/browserslist-config"
+  ],
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "scripts": {
+    "lint": "eslint tests index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "devDependencies": {
+    "@theholocron/browserslist-config": "^0.1.0",
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset"
+  },
+  "peerDependences": {
+    "@theholocron/browserslist-config": "^0.1.0"
+  }
+}

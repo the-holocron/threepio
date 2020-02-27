@@ -1,0 +1,36 @@
+{
+  "name": "@theholocron/postcss-config",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/postcss-config#readme",
+  "description": "A PostCSS configuration for processing (S)CSS within the Galaxy",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "postcssrc.json",
+    "index.js"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "scripts": {
+    "lint": "eslint tests index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "postcss-cli": "^6.1.2",
+    "postcss-flexbugs-fixes": "^4.1.0"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset"
+  }
+}

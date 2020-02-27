@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Configuration Webpack should render the configuration 1`] = `
+Object {
+  "module": Object {
+    "rules": Array [
+      Object {
+        "test": /\\\\\\.js\\$/,
+        "use": Object {
+          "loader": "babel-loader",
+        },
+      },
+      Object {
+        "test": /\\\\\\.md\\$/,
+        "use": Object {
+          "loader": "raw-loader",
+        },
+      },
+      Object {
+        "include": "/Users/chrisopedia/Code/holocron",
+        "test": /\\\\\\.scss\\$/,
+        "use": Array [
+          Object {
+            "loader": "style-loader",
+          },
+          Object {
+            "loader": "css-loader",
+          },
+          Object {
+            "loader": "postcss-loader",
+          },
+          Object {
+            "loader": "sass-loader",
+            "options": Object {
+              "includePaths": Array [
+                "node_modules/",
+              ],
+            },
+          },
+        ],
+      },
+    ],
+  },
+  "node": Object {
+    "fs": "empty",
+    "net": "empty",
+    "tls": "empty",
+  },
+  "plugins": Array [
+    ObsoleteWebpackPlugin {
+      "options": Object {
+        "name": "obsolete",
+        "position": "afterbegin",
+        "promptOnNonTargetBrowser": false,
+        "promptOnUnknownBrowser": true,
+      },
+    },
+  ],
+}
+`;

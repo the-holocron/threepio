@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preset Jest should render the configuration 1`] = `
+Object {
+  "collectCoverage": true,
+  "collectCoverageFrom": Array [
+    "<rootDir>/src/**/*.{js,jsx}",
+    "!<rootDir>/**/{__mocks__, mocks}/**",
+    "!<rootDir>/**/*.{mock,mocks}.js",
+    "!<rootDir>/**/{__stories__, stories}/**",
+    "!<rootDir>/**/{__tests__, tests}/__snapshots__/**",
+  ],
+  "coverageThreshold": Object {
+    "global": Object {
+      "branches": 80,
+      "functions": 80,
+      "lines": 80,
+      "statements": 80,
+    },
+  },
+  "modulePathIgnorePatterns": Array [
+    "<rootDir>/dist/",
+  ],
+  "testRegex": Array [
+    "(/__tests__/.*|(\\\\.|/)(test|spec))\\\\.[jt]sx?$",
+    "(/tests/.*|(\\\\.|/)(test|spec))\\\\.[jt]sx?$",
+  ],
+  "transform": Object {
+    "^.+\\\\.js$": "babel-jest",
+  },
+  "transformIgnorePatterns": Array [
+    "<rootDir>/node_modules/",
+  ],
+}
+`;

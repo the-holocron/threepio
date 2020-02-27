@@ -1,0 +1,35 @@
+{
+  "name": "@theholocron/jest-preset",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/jest-preset#readme",
+  "description": "A Jest preset for testing code within the Galaxy.",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "jest-preset.json",
+  "files": [
+    "jest-preset.json"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "./jest-preset.json",
+    "rootDir": "."
+  },
+  "scripts": {
+    "lint": "eslint tests",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "babel-jest": "24.6.0",
+    "jest": "24.6.0",
+    "sass-true": "^4.0.0"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config"
+  }
+}

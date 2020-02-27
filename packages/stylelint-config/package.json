@@ -1,0 +1,56 @@
+{
+  "name": "@theholocron/stylelint-config",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/stylelint-config#readme",
+  "description": "A StyleLint configuration for writing well-formed (S)CSS within the Galaxy.",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "stylelintrc.json",
+    "index.js"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "browserslist": [
+    "extends @theholocron/browserslist-config"
+  ],
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "scripts": {
+    "lint": "eslint tests index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "stylelint": "^10.0.1",
+    "stylelint-8-point-grid": "^0.2.1",
+    "stylelint-checkstyle-formatter": "^0.1.1",
+    "stylelint-color-format": "^0.2.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
+    "stylelint-declaration-strict-value": "^1.0.4",
+    "stylelint-declaration-use-variable": "^1.7.0",
+    "stylelint-images": "^2.0.0",
+    "stylelint-no-indistinguishable-colors": "^1.2.1",
+    "stylelint-no-unsupported-browser-features": "^3.0.0",
+    "stylelint-order": "^3.0.0",
+    "stylelint-scss": "^3.3.1",
+    "stylelint-selector-no-empty": "^1.0.7",
+    "stylelint-selector-tag-no-without-class": "^2.0.0",
+    "stylelint-z-index-value-constraint": "^1.0.0",
+    "subsetcss": "^0.1.4"
+  },
+  "devDependencies": {
+    "@theholocron/browserslist-config": "^0.1.0",
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset"
+  },
+  "peerDependencies": {
+    "@theholocron/browserslist-config": "^0.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@theholocron/threepio",
+  "description": "The protocol droid designed to hold all of the shareable configurations.",
+  "homepage": "https://github.com/the-holocron/threepio#readme",
+  "author": "Newton Koumantzelis",
+  "version": "0.0.0",
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "test": "lerna run test"
+  },
+  "dependencies": {
+    "@theholocron/babel-preset": "file:packages/babel-preset",
+    "@theholocron/browserslist-config": "file:packages/browserslist-config",
+    "@theholocron/commitlint-config": "file:packages/commitlint-config",
+    "@theholocron/eslint-config": "file:packages/eslint-config",
+    "@theholocron/jest-preset": "file:packages/jest-preset",
+    "@theholocron/lint-staged-config": "file:packages/lint-staged",
+    "@theholocron/markdownlint-config": "file:packages/markdownlint-config",
+    "@theholocron/postcss-config": "file:packages/postcss-config",
+    "@theholocron/semantic-release-config": "file:packages/semantic-release-config",
+    "@theholocron/storybook-config": "file:packages/storybook-config",
+    "@theholocron/stylelint-config": "file:packages/stylelint-config",
+    "@theholocron/webpack-config": "file:packages/webpack-config"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.1.0",
+    "@theholocron/browserslist-config": "file:../browserslist-config",
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset",
+    "lerna": "^3.20.2",
+    "lerna-semantic-release": "^9.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@theholocron/semantic-release-config",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/semantic-release-config#readme",
+  "description": "A Semantic Release configuration for releasing code within the Galaxy.",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "releaserc.json"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "scripts": {
+    "lint": "eslint tests index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.4",
+    "@semantic-release/release-notes-generator": "^7.3.5",
+    "semantic-release": "^15.13.31"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset"
+  }
+}

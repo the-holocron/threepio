@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preset Babel should render the configuration 1`] = `
+Object {
+  "plugins": Array [
+    "@babel/plugin-proposal-class-properties",
+    Array [
+      "@babel/plugin-proposal-object-rest-spread",
+      Object {
+        "useBuiltIns": true,
+      },
+    ],
+  ],
+  "presets": Array [
+    Array [
+      "@babel/preset-env",
+    ],
+  ],
+}
+`;

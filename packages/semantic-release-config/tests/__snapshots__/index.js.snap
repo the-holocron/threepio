@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Configuration Semantic Release should render the configuration 1`] = `
+Object {
+  "plugins": Array [
+    Array [
+      "@semantic-release/commit-analyzer",
+      Object {
+        "parserOpts": Object {
+          "noteKeywords": Array [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES",
+            "BREAKING",
+          ],
+        },
+        "preset": "angular",
+      },
+    ],
+    Array [
+      "@semantic-release/release-notes-generator",
+      Object {
+        "parserOpts": Object {
+          "noteKeywords": Array [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES",
+            "BREAKING",
+          ],
+        },
+        "preset": "angular",
+        "writerOpts": Object {
+          "commitsSort": Array [
+            "subject",
+            "scope",
+          ],
+        },
+      },
+    ],
+    Array [
+      "@semantic-release/changelog",
+      Object {
+        "changelogTitle": "# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.",
+      },
+    ],
+    Array [
+      "@semantic-release/npm",
+      Object {
+        "tarballDir": "pack",
+      },
+    ],
+    Array [
+      "@semantic-release/github",
+      Object {
+        "assets": "pack/*.tgz",
+      },
+    ],
+    Array [
+      "@semantic-release/git",
+      Object {
+        "message": "chore(release): \${nextRelease.version} [skip ci]
+
+\${nextRelease.notes}",
+      },
+    ],
+  ],
+}
+`;

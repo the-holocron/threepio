@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Configuration Browserslist should render the configuration 1`] = `
+Array [
+  "and_chr 80",
+  "chrome 80",
+  "chrome 79",
+  "edge 80",
+  "edge 79",
+  "firefox 73",
+  "firefox 72",
+  "ios_saf 13.3",
+  "safari 13",
+  "safari 12.1",
+]
+`;

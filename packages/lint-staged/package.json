@@ -1,0 +1,35 @@
+{
+  "name": "@theholocron/lint-staged-config",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/lint-staged-config#readme",
+  "description": "A Lint Staged configuration for linting code that has been staged in Git within the Galaxy",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "lintstagedrc.json",
+    "index.js"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "scripts": {
+    "lint": "eslint tests index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "husky": "^4.2.1",
+    "lint-staged": "^8.2.0"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset"
+  }
+}

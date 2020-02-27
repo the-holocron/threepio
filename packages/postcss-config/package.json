@@ -4,10 +4,9 @@
   "description": "A PostCSS configuration for processing (S)CSS within the Galaxy.",
   "author": "Newton Koumantzelis",
   "version": "0.1.1",
-  "main": "index.js",
+  "main": "postcss.config.js",
   "files": [
-    "postcssrc.json",
-    "index.js"
+    "postcss.config.js"
   ],
   "repository": "https://github.com/the-holocron/threepio.git",
   "bugs": "https://github.com/the-holocron/threepio/issues",
@@ -24,7 +23,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint tests index.js",
+    "lint": "eslint tests postcss.config.js",
     "test": "jest --coverage"
   },
   "dependencies": {

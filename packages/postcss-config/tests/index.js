@@ -1,4 +1,4 @@
-const config = require('../postcssrc.json');
+const config = require('../postcss.config.js');
 
 describe('Configuration', () => {
 	describe('PostCSS', () => {

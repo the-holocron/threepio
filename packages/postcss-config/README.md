@@ -29,6 +29,24 @@ In your project `package.json` add the following:
 }
 ```
 
+In your project `webpack.config.json` add the following:
+
+```javascript
+module: {
+    rules: [{
+        test: /\.css$/,
+        use: [{
+            loader: 'postcss-loader',
+            options: {
+                config: {
+                    path: 'node_modules/@theholocron/postcss-config/'
+                }
+            }
+        },
+    },
+};
+```
+
 ## How We Track Changes [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.0.0-orange)](https://keepachangelog.com/en/1.0.0/)
 
 This project uses a [CHANGELOG](./CHANGELOG.md) and [GitHub releases](https://help.github.com/en/github/administering-a-repository/about-releases) which contains a curated, chronologically ordered list of notable changes for each version of a project. [Read more about changelogs](https://keepachangelog.com/en/1.0.0/).

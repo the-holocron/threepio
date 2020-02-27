@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/storybook-config#readme",
   "description": "A Storybook configuration for developing React components within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "config.js",
   "files": [
     "addons.js",

@@ -3,8 +3,8 @@
 exports[`Configuration PostCSS should render the configuration 1`] = `
 Object {
   "plugins": Array [
-    "require('autoprefixer')({ cascade: false, replace: true })",
-    "require('postcss-flexbugs-fixes')",
+    [Function],
+    [Function],
   ],
 }
 `;

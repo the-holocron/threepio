@@ -28,6 +28,11 @@ Object {
           },
           Object {
             "loader": "postcss-loader",
+            "options": Object {
+              "config": Object {
+                "path": "node_modules/@theholocron/postcss-config/",
+              },
+            },
           },
           Object {
             "loader": "sass-loader",

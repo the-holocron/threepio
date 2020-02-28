@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/markdownlint-config#readme",
   "description": "A MarkdownLint configuration for writing well-formatted documentation within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "files": [
     "markdownlintrc.json",

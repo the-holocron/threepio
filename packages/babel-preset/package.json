@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/babel-preset#readme",
   "description": "A Babel preset for transpiling next generation Javascript in the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "main": "index.js",
   "files": [
     "babel.config.json",
@@ -33,14 +33,14 @@
   "dependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.4.6",
-    "@babel/polyfill": "^7.8.3",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.6",
     "@babel/preset-react": "^7.8.3"
   },
   "devDependencies": {
-    "@theholocron/browserslist-config": "^0.1.1",
+    "@theholocron/browserslist-config": "^0.1.2",
     "@theholocron/eslint-config": "file:../eslint-config",
     "@theholocron/jest-preset": "file:../jest-preset"
   },

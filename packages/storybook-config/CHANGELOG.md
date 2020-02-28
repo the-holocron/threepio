@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/the-holocron/threepio/compare/@theholocron/storybook-config@0.1.2...@theholocron/storybook-config@0.2.0) (2020-02-28)
+
+
+### Features
+
+* add in faker for mock data ([e117498](https://github.com/the-holocron/threepio/commit/e117498d6095a43fe25f19e016601c7020a2e2d7))
+
+
+
+
+
 ## [0.1.2](https://github.com/the-holocron/threepio/compare/@theholocron/storybook-config@0.1.1...@theholocron/storybook-config@0.1.2) (2020-02-28)
 
 **Note:** Version bump only for package @theholocron/storybook-config

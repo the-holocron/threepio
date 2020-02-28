@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/babel-preset#readme",
   "description": "A Babel preset for transpiling next generation Javascript in the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "index.js",
   "files": [
     "babel.config.js",

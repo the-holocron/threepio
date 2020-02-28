@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/babel-preset@0.2.1...@theholocron/babel-preset@0.3.0) (2020-02-28)
+
+
+### Features
+
+* **babel:** add in core-js ([00619b8](https://github.com/the-holocron/threepio/commit/00619b8a3e1056f42c5d183f289e8e23333c9150))
+
+
+
+
+
 ## [0.2.1](https://github.com/the-holocron/threepio/compare/@theholocron/babel-preset@0.2.0...@theholocron/babel-preset@0.2.1) (2020-02-28)
 
 

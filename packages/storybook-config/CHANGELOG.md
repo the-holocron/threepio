@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/storybook-config@0.2.0...@theholocron/storybook-config@0.3.0) (2020-02-28)
+
+
+### Features
+
+* **storybook:** add in react ([3f6f14b](https://github.com/the-holocron/threepio/commit/3f6f14b4a15ba61f39ee8b1128c1a8b747f3c1b3))
+
+
+
+
+
 # [0.2.0](https://github.com/the-holocron/threepio/compare/@theholocron/storybook-config@0.1.2...@theholocron/storybook-config@0.2.0) (2020-02-28)
 
 

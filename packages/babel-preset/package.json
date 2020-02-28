@@ -6,7 +6,7 @@
   "version": "0.2.0",
   "main": "index.js",
   "files": [
-    "babel.config.json",
+    "babel.config.js",
     "index.js"
   ],
   "repository": "https://github.com/the-holocron/threepio.git",

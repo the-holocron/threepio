@@ -1,4 +1,5 @@
-const config = require('../babel.config.json');
+/* eslint-env jest */
+const config = require('../babel.config.js');
 
 describe('Preset', () => {
 	describe('Babel', () => {

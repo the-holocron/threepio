@@ -39,6 +39,7 @@
     "@storybook/addon-options": "5.1.0-alpha.33",
     "@storybook/addon-viewport": "5.1.0-alpha.33",
     "@storybook/react": "5.1.0-alpha.33",
+    "faker": "^4.1.0",
     "fetch-mock": "^7.3.3",
     "storybook-addon-jsx": "^7.1.2",
     "storybook-addon-smart-knobs": "^4.1.2",

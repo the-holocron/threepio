@@ -11,8 +11,9 @@
   "license": "GPL-3.0",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "bump": "lerna version --conventional-commits",
     "lint": "lerna run lint",
+    "prerelease": "lerna version --conventional-commits",
+    "release": "lerna publish from-package",
     "test": "lerna run test"
   },
   "dependencies": {

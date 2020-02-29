@@ -47,7 +47,7 @@
     "stylelint-selector-no-empty": "^1.0.7",
     "stylelint-selector-tag-no-without-class": "^2.0.0",
     "stylelint-z-index-value-constraint": "^1.0.0",
-    "subsetcss": "^0.1.4"
+    "subsetcss": "^0.2.6"
   },
   "peerDependencies": {
     "@theholocron/browserslist-config": "^0.1.0"

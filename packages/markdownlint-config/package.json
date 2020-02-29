@@ -28,6 +28,6 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "markdownlint-cli": "^0.17.0"
+    "markdownlint-cli": "^0.22.0"
   }
 }

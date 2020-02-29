@@ -1,4 +1,4 @@
-# Babel Preset [![npm](https://img.shields.io/npm/v/@theholocron/babel-preset?color=red)](https://www.npmjs.com/package/@theholocron/babel-preset) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/babel-preset)](https://dependabot.com)
+# Babel Preset [![npm](https://img.shields.io/npm/v/@theholocron/babel-preset?color=red)](https://www.npmjs.com/package/@theholocron/babel-preset)
 
 A [Babel preset](https://babeljs.io/docs/usage/babelrc/) for transpiling next generation Javascript in the Galaxy.
 

@@ -1,4 +1,4 @@
-# CommitLint Config [![npm](https://img.shields.io/npm/v/@theholocron/commitlint-config?color=red)](https://www.npmjs.com/package/@theholocron/commitlint-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/commitlint-config)](https://dependabot.com)
+# CommitLint Config [![npm](https://img.shields.io/npm/v/@theholocron/commitlint-config?color=red)](https://www.npmjs.com/package/@theholocron/commitlint-config)
 
 A [CommitLint configuration](https://commitlint.js.org/#/reference-configuration) for writing properly formatted Git commits within the Galaxy.
 

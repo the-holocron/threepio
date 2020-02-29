@@ -1,4 +1,4 @@
-# Lint Staged Config [![npm](https://img.shields.io/npm/v/@theholocron/lint-staged-config?color=red)](https://www.npmjs.com/package/@theholocron/lint-staged-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/lint-staged-config)](https://dependabot.com)
+# Lint Staged Config [![npm](https://img.shields.io/npm/v/@theholocron/lint-staged-config?color=red)](https://www.npmjs.com/package/@theholocron/lint-staged-config)
 
 A [Lint Staged configuration](https://github.com/okonet/lint-staged#configuration) for linting code that has been staged in Git within the Galaxy.
 

@@ -1,4 +1,4 @@
-# PostCSS Config [![npm](https://img.shields.io/npm/v/@theholocron/postcss-config?color=red)](https://www.npmjs.com/package/@theholocron/postcss-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/postcss-config)](https://dependabot.com)
+# PostCSS Config [![npm](https://img.shields.io/npm/v/@theholocron/postcss-config?color=red)](https://www.npmjs.com/package/@theholocron/postcss-config)
 
 A [PostCSS configuration](https://github.com/postcss/postcss-cli#config) for processing (S)CSS within the Galaxy.
 

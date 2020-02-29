@@ -1,4 +1,4 @@
-# StyleLint Config [![npm](https://img.shields.io/npm/v/@theholocron/stylelint-config?color=red)](https://www.npmjs.com/package/@theholocron/stylelint-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/stylelint-config)](https://dependabot.com)
+# StyleLint Config [![npm](https://img.shields.io/npm/v/@theholocron/stylelint-config?color=red)](https://www.npmjs.com/package/@theholocron/stylelint-config)
 
 A [StyleLint configuration](https://stylelint.io/user-guide/configuration/) for writing well-formed (S)CSS within the Galaxy.
 

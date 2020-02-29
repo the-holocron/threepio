@@ -1,4 +1,4 @@
-# Storybook Configuration [![npm](https://img.shields.io/npm/v/@theholocron/storybook-config?color=red)](https://www.npmjs.com/package/@theholocron/storybook-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/storybook-config)](https://dependabot.com)
+# Storybook Configuration [![npm](https://img.shields.io/npm/v/@theholocron/storybook-config?color=red)](https://www.npmjs.com/package/@theholocron/storybook-config)
 
 A [Storybook configuration](https://storybook.js.org/configurations/default-config/) for developing React components within the Galaxy.",
 

@@ -1,4 +1,4 @@
-# MarkdownLint Config [![npm](https://img.shields.io/npm/v/@theholocron/markdownlint-config?color=red)](https://www.npmjs.com/package/@theholocron/markdownlint-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/markdownlint-config)](https://dependabot.com)
+# MarkdownLint Config [![npm](https://img.shields.io/npm/v/@theholocron/markdownlint-config?color=red)](https://www.npmjs.com/package/@theholocron/markdownlint-config)
 
 A [MarkdownLint configuration](https://github.com/igorshubovych/markdownlint-cli#configuration) for writing well-formatted documentation within the Galaxy.
 

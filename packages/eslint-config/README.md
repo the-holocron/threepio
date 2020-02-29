@@ -1,4 +1,4 @@
-# ESLint Config [![npm](https://img.shields.io/npm/v/@theholocron/eslint-config?color=red)](https://www.npmjs.com/package/@theholocron/eslint-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/eslint-config)](https://dependabot.com)
+# ESLint Config [![npm](https://img.shields.io/npm/v/@theholocron/eslint-config?color=red)](https://www.npmjs.com/package/@theholocron/eslint-config)
 
 An [ESLint configuration](https://eslint.org/docs/developer-guide/shareable-configs) for writing well-formed Javascript within the Galaxy.
 

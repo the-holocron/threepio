@@ -46,10 +46,6 @@
     "storybook-addon-smart-knobs": "^4.1.2",
     "storybook-react-router": "^1.0.5"
   },
-  "devDependencies": {
-    "@theholocron/eslint-config": "file:../eslint-config",
-    "@theholocron/jest-preset": "file:../jest-preset"
-  },
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

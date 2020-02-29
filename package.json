@@ -22,7 +22,7 @@
     "@theholocron/commitlint-config": "file:packages/commitlint-config",
     "@theholocron/eslint-config": "file:packages/eslint-config",
     "@theholocron/jest-preset": "file:packages/jest-preset",
-    "@theholocron/lint-staged-config": "file:packages/lint-staged",
+    "@theholocron/lint-staged-config": "file:packages/lint-staged-config",
     "@theholocron/markdownlint-config": "file:packages/markdownlint-config",
     "@theholocron/postcss-config": "file:packages/postcss-config",
     "@theholocron/semantic-release-config": "file:packages/semantic-release-config",

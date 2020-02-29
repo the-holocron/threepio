@@ -35,9 +35,5 @@
     "@semantic-release/npm": "^5.3.4",
     "@semantic-release/release-notes-generator": "^7.3.5",
     "semantic-release": "^15.13.31"
-  },
-  "devDependencies": {
-    "@theholocron/eslint-config": "file:../eslint-config",
-    "@theholocron/jest-preset": "file:../jest-preset"
   }
 }

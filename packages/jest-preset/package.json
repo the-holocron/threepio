@@ -31,8 +31,5 @@
     "babel-jest": "24.6.0",
     "jest": "24.6.0",
     "sass-true": "^5.0.0"
-  },
-  "devDependencies": {
-    "@theholocron/eslint-config": "file:../eslint-config"
   }
 }

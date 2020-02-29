@@ -30,9 +30,5 @@
     "autoprefixer": "^9.5.1",
     "postcss-cli": "^6.1.2",
     "postcss-flexbugs-fixes": "^4.1.0"
-  },
-  "devDependencies": {
-    "@theholocron/eslint-config": "file:../eslint-config",
-    "@theholocron/jest-preset": "file:../jest-preset"
   }
 }

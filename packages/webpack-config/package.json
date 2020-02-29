@@ -36,9 +36,5 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^1.1.3",
     "webpack": "^4.33.0"
-  },
-  "devDependencies": {
-    "@theholocron/eslint-config": "file:../eslint-config",
-    "@theholocron/jest-preset": "file:../jest-preset"
   }
 }

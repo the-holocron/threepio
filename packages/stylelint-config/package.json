@@ -49,11 +49,6 @@
     "stylelint-z-index-value-constraint": "^1.0.0",
     "subsetcss": "^0.1.4"
   },
-  "devDependencies": {
-    "@theholocron/browserslist-config": "^0.1.2",
-    "@theholocron/eslint-config": "file:../eslint-config",
-    "@theholocron/jest-preset": "file:../jest-preset"
-  },
   "peerDependencies": {
     "@theholocron/browserslist-config": "^0.1.0"
   }

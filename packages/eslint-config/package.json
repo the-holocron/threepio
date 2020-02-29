@@ -28,8 +28,8 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
     "eslint-plugin-compat": "^3.5.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^22.15.2",
@@ -41,7 +41,6 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
-    "@theholocron/browserslist-config": "^0.1.2",
     "@theholocron/jest-preset": "file:../jest-preset"
   },
   "peerDependencies": {

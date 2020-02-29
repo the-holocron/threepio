@@ -1,4 +1,4 @@
-# Jest Preset [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Jest Preset [![npm](https://img.shields.io/npm/v/@theholocron/jest-preset?color=red)](https://www.npmjs.com/package/@theholocron/jest-preset) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/jest-preset)](https://dependabot.com)
 
 A [Jest preset](https://facebook.github.io/jest/docs/en/configuration.html#preset-string) for testing code within the Galaxy.
 

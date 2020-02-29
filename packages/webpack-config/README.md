@@ -1,4 +1,4 @@
-# Webpack Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Webpack Config [![npm](https://img.shields.io/npm/v/@theholocron/webpack-config?color=red)](https://www.npmjs.com/package/@theholocron/webpack-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/webpack-config)](https://dependabot.com)
 
 A [Webpack configuration](https://webpack.js.org/configuration/) for developing and bundling libraries locally within the Galaxy.
 

@@ -1,4 +1,4 @@
-# Storybook Configuration [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Storybook Configuration [![npm](https://img.shields.io/npm/v/@theholocron/storybook-config?color=red)](https://www.npmjs.com/package/@theholocron/storybook-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/storybook-config)](https://dependabot.com)
 
 A [Storybook configuration](https://storybook.js.org/configurations/default-config/) for developing React components within the Galaxy.",
 

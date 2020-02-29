@@ -1,4 +1,4 @@
-# Browserslist Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Browserslist Config [![npm](https://img.shields.io/npm/v/@theholocron/browserslist-config?color=red)](https://www.npmjs.com/package/@theholocron/browserslist-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/browserslist-config)](https://dependabot.com)
 
 A [browserslist configuration](https://github.com/browserslist/browserslist#shareable-configs) for all browsers and devices supported within the Galaxy.
 

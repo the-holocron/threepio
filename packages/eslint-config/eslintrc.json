@@ -1,24 +1,30 @@
 {
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
-  },
-
   "env": {
     "browser": true,
     "es6": true,
     "node": true,
     "jest/globals": true
   },
-
   "globals": {
     "document": false,
     "fetch": false,
     "navigator": false,
     "window": false
+  },
+
+  "ignorePatterns": [
+    "coverage",
+    "dist",
+    "docs"
+  ],
+
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
 
   "plugins": [
@@ -32,15 +38,6 @@
     "standard",
     "react-hooks"
   ],
-
-  "settings": {
-    "react": {
-      "version": "16.6.0"
-    },
-    "polyfills": [
-      "fetch"
-    ]
-  },
 
   "rules": {
     "for-direction": "off",
@@ -408,5 +405,14 @@
     "jest/valid-describe": "error",
     "jest/valid-expect": "error",
     "jest/valid-expect-in-promise": "error"
+  },
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "polyfills": [
+      "fetch"
+    ]
   }
 }

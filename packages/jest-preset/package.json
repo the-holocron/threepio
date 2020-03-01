@@ -24,7 +24,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint tests",
+    "lint": "eslint .",
     "test": "jest --coverage"
   },
   "dependencies": {

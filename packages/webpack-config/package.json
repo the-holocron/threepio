@@ -23,7 +23,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint tests index.js",
+    "lint": "eslint .",
     "test": "jest --coverage"
   },
   "dependencies": {

@@ -2,8 +2,8 @@ const { readFileSync } = require('fs');
 const stylelint = require('stylelint');
 const config = require('../');
 
-const valid = readFileSync('./tests/valid.mocks.scss', 'utf-8');
-const invalid = readFileSync('./tests/invalid.mocks.scss', 'utf-8');
+const valid = readFileSync('./test/valid.mocks.scss', 'utf-8');
+const invalid = readFileSync('./test/invalid.mocks.scss', 'utf-8');
 
 describe('Configuration', () => {
 	describe('StyleLint', () => {

@@ -23,7 +23,7 @@ Object {
   ],
   "testRegex": Array [
     "(/__tests__/.*|(\\\\.|/)(test|spec))\\\\.[jt]sx?$",
-    "(/tests/.*|(\\\\.|/)(test|spec))\\\\.[jt]sx?$",
+    "(/tests?/.*|(\\\\.|/)(test|spec))\\\\.[jt]sx?$",
   ],
   "transform": Object {
     "^.+\\\\.js$": "babel-jest",

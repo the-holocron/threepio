@@ -23,7 +23,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint tests postcss.config.js",
+    "lint": "eslint .",
     "test": "jest --coverage"
   },
   "dependencies": {

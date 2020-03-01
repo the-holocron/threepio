@@ -3,9 +3,9 @@
   "collectCoverageFrom": [
     "<rootDir>/src/**/*.{js,jsx}",
     "!<rootDir>/**/{__mocks__, mocks}/**",
-    "!<rootDir>/**/*.{mock,mocks}.js",
-    "!<rootDir>/**/{__stories__, stories}/**",
-    "!<rootDir>/**/{__tests__, tests}/__snapshots__/**"
+    "!<rootDir>/**/*.{mocks,mock}.js",
+    "!<rootDir>/**/{__stories__,stories,story}/**",
+    "!<rootDir>/**/{__tests__,tests,test}/__snapshots__/**"
   ],
   "coverageThreshold": {
     "global": {

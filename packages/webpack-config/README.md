@@ -11,6 +11,7 @@ npm install --save-dev @theholocron/webpack-config
 ## Table of Contents
 
 - [Usage](#usage)
+- [Rules](#how-we-configure-our-bundles)
 - [Changelog](#how-we-track-changes)
 - [Versioning](#how-we-version)
 - [Contribution](#how-to-contribute)
@@ -63,6 +64,16 @@ module.exports = Object.assign(
     },
 );
 ```
+
+## How We Configure Bundles
+
+Currently, this configuration is to provide a [custom Webpack setup for Storybook](https://storybook.js.org/docs/configurations/custom-webpack-config/).  Within it we use:
+
+- `babel-loader` to transpile our JS.
+- `raw-loader` to handle Markdown for importing our documentation.
+- `style-loader`, `css-loader`, `postcss-loader` and `sass-loader` to use `dart-sass` for SCSS transpilation.
+
+Our [`postcss-config`](../postcss-config#readme) is added to use `autoprefixer` and `postcss-flexbugs-fixes`.
 
 ## How We Track Changes [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.0.0-orange)](https://keepachangelog.com/en/1.0.0/)
 

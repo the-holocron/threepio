@@ -11,6 +11,7 @@ npm install --save-dev @theholocron/lint-staged-config
 ## Table of Contents
 
 - [Usage](#usage)
+- [Rules](#how-we-manage-git-hooks)
 - [Changelog](#how-we-track-changes)
 - [Versioning](#how-we-version)
 - [Contribution](#how-to-contribute)
@@ -30,6 +31,13 @@ In your project `package.json` add the following:
   },
 }
 ```
+
+## How We Manage Git Hooks
+
+This library uses [husky](https://github.com/typicode/husky) for managing Git hooks and extends that with `lint-staged`.  This means we can run automated tasks on any file that is placed on the Git stage.  Currently that means we run the following commands on various types of code:
+
+- **SCSS**: We use `stylelint` and thus we run the `--fix` flag on any staged SCSS files and automatically add the fixes to Git's stage.
+- **JS**: We use `eslint` and thus we run the `--fix` flag on any staged JS files and automatically add the fixes to Git's stage.
 
 ## How We Track Changes [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.0.0-orange)](https://keepachangelog.com/en/1.0.0/)
 

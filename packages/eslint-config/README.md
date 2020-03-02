@@ -32,7 +32,7 @@ In your project `package.json` add the following:
 
 ## How We Write Our Code
 
-- **Four (4) space**
+- **1 tab character**
 - **Semicolons**
 - [Sort JSX Props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md): errors; sorted alphabetically, with shorthand first
 - [Sort Imports](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md): errors; sorted alphabetically by import with grouping order of "builtin", "external", "parent", "sibling", and "index"

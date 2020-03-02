@@ -45,7 +45,7 @@ Check the README for each configuration within the `packages` directory for spec
 - [stylelint-config](./packages/stylelint-config#readme) - A StyleLint configuration for writing well-formed (S)CSS.
 - [webpack-config](./packages/webpack-config#readme) - A Webpack configuration for developing and bundling libraries.
 
-## Where to Find Documentation [![Badge](https://github.com/storybookjs/brand/raw/master/badge/badge-storybook.svg?sanitize=true)](https://storybook.js.org/)
+## Where to Find Documentation
 
 The best way to find out what's available is to dig through source code, as each directory has a README file to describe each feature.
 

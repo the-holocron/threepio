@@ -1,4 +1,4 @@
-# ESLint Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# ESLint Config [![npm](https://img.shields.io/npm/v/@theholocron/eslint-config?color=red)](https://www.npmjs.com/package/@theholocron/eslint-config)
 
 An [ESLint configuration](https://eslint.org/docs/developer-guide/shareable-configs) for writing well-formed Javascript within the Galaxy.
 
@@ -32,7 +32,7 @@ In your project `package.json` add the following:
 
 ## How We Write Our Code
 
-- **Four (4) space**
+- **1 tab character**
 - **Semicolons**
 - [Sort JSX Props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md): errors; sorted alphabetically, with shorthand first
 - [Sort Imports](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md): errors; sorted alphabetically by import with grouping order of "builtin", "external", "parent", "sibling", and "index"

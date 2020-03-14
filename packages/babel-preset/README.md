@@ -1,4 +1,4 @@
-# Babel Preset [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Babel Preset [![npm](https://img.shields.io/npm/v/@theholocron/babel-preset?color=red)](https://www.npmjs.com/package/@theholocron/babel-preset)
 
 A [Babel preset](https://babeljs.io/docs/usage/babelrc/) for transpiling next generation Javascript in the Galaxy.
 
@@ -11,7 +11,7 @@ npm install --save-dev @babel/cli @theholocron/babel-preset
 ## Table of Contents
 
 - [Usage](#usage)
-- [Presets](#which-proposals-we-use)
+- [Presets](#which-plugins-and-proposals-we-use)
 - [Changelog](#how-we-track-changes)
 - [Versioning](#how-we-version)
 - [Contribution](#how-to-contribute)
@@ -30,16 +30,17 @@ In your project `package.json` add the following:
 }
 ```
 
-## Which Proposals We Use
+## Which Plugins and Proposals We Use
 
 Our current preset includes the following presets:
 
-[`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env.html): used in conjunction with our [`browserslist-config`](https://github.com/threepio/tree/master/packages/browserslist-config) to transpile any Javascript required by our supported browsers. Don't forget to include our [browserslist-config](../browserslist-config/README.md)
+- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env.html): used in conjunction with our [`browserslist-config`](https://github.com/threepio/tree/master/packages/browserslist-config) to transpile any Javascript required by our supported browsers. Don't forget to include our [browserslist-config](../browserslist-config#readme)
+- [`@babel/preset-react`](https://babeljs.io/docs/en/babel-preset-react.html): used for cases where you need to work with React JS
 
 And the current plugins include the following:
 
-[`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties): transforms any class properties
-[`@babel/plugin-proposal-object-rest-spread`](https://babeljs.io/docs/en/babel-plugin-proposal-object-rest-spread): transforms any rest or spread operators on objects
+- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties): transforms any class properties
+- [`@babel/plugin-proposal-object-rest-spread`](https://babeljs.io/docs/en/babel-plugin-proposal-object-rest-spread): transforms any rest or spread operators on objects
 
 ## How We Track Changes [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.0.0-orange)](https://keepachangelog.com/en/1.0.0/)
 

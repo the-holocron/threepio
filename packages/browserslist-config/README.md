@@ -1,4 +1,4 @@
-# Browserslist Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Browserslist Config [![npm](https://img.shields.io/npm/v/@theholocron/browserslist-config?color=red)](https://www.npmjs.com/package/@theholocron/browserslist-config)
 
 A [browserslist configuration](https://github.com/browserslist/browserslist#shareable-configs) for all browsers and devices supported within the Galaxy.
 
@@ -33,8 +33,6 @@ In your project `package.json` add the following:
 ## Which Browsers & Devices We Support
 
 Typically the configuration commonly used contains **last 2 versions**; the problem with that is now we're supporting browsers like QQ and Baidu forever even though there isn't more that 0.23% global market share. The configuration adopted here was originally taken from [this article](https://jamie.build/last-2-versions), and requires the browser has more than 0.25% market share globally as well as not IE11 (Edge and up only) nor any of Opera Mini.
-
-For a specific browserslist, take a look at the [`browserslist-stats.json`](./browserslist-stats.json).
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>iOS Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Opera |
 | --------- | --------- | --------- | --------- | --------- | --------- |

@@ -1,4 +1,4 @@
-# StyleLint Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# StyleLint Config [![npm](https://img.shields.io/npm/v/@theholocron/stylelint-config?color=red)](https://www.npmjs.com/package/@theholocron/stylelint-config)
 
 A [StyleLint configuration](https://stylelint.io/user-guide/configuration/) for writing well-formed (S)CSS within the Galaxy.
 

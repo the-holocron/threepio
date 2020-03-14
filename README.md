@@ -1,6 +1,8 @@
-# Threepio [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Threepio [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=the-holocron/threepio)](https://dependabot.com)
 
 This protocol droid contains all protocols (shareable configurations) that are used within the Galaxy.
+
+![threepio](./threepio.png)
 
 ## Installation
 
@@ -43,7 +45,7 @@ Check the README for each configuration within the `packages` directory for spec
 - [stylelint-config](./packages/stylelint-config#readme) - A StyleLint configuration for writing well-formed (S)CSS.
 - [webpack-config](./packages/webpack-config#readme) - A Webpack configuration for developing and bundling libraries.
 
-## Where to Find Documentation [![Badge](https://github.com/storybookjs/brand/raw/master/badge/badge-storybook.svg?sanitize=true)](https://storybook.js.org/)
+## Where to Find Documentation
 
 The best way to find out what's available is to dig through source code, as each directory has a README file to describe each feature.
 

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.2.1...@theholocron/eslint-config@0.2.2) (2020-03-14)
+
+**Note:** Version bump only for package @theholocron/eslint-config
+
+
+
+
+
+## [0.2.1](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.2.0...@theholocron/eslint-config@0.2.1) (2020-03-01)
+
+**Note:** Version bump only for package @theholocron/eslint-config
+
+
+
+
+
 # [0.2.0](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.1.2...@theholocron/eslint-config@0.2.0) (2020-02-29)
 
 

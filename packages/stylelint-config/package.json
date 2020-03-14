@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/stylelint-config#readme",
   "description": "A StyleLint configuration for writing well-formed (S)CSS within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "index.js",
   "files": [
     "stylelintrc.json",
@@ -28,14 +28,14 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint tests index.js",
+    "lint": "eslint .",
     "test": "jest --coverage"
   },
   "dependencies": {
     "stylelint": "^10.0.1",
     "stylelint-8-point-grid": "^0.2.1",
     "stylelint-checkstyle-formatter": "^0.1.1",
-    "stylelint-color-format": "^0.2.0",
+    "stylelint-color-format": "^1.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
     "stylelint-declaration-strict-value": "^1.0.4",
     "stylelint-declaration-use-variable": "^1.7.0",
@@ -47,7 +47,7 @@
     "stylelint-selector-no-empty": "^1.0.7",
     "stylelint-selector-tag-no-without-class": "^2.0.0",
     "stylelint-z-index-value-constraint": "^1.0.0",
-    "subsetcss": "^0.1.4"
+    "subsetcss": "^0.2.6"
   },
   "peerDependencies": {
     "@theholocron/browserslist-config": "^0.1.0"

@@ -1,4 +1,4 @@
-# Semantic Release Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Semantic Release Config [![npm](https://img.shields.io/npm/v/@theholocron/semantic-release-config?color=red)](https://www.npmjs.com/package/@theholocron/semantic-release-config)
 
 A [Semantic Release configuration](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration) for releasing code within the Galaxy.
 

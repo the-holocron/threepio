@@ -1,4 +1,4 @@
-# MarkdownLint Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# MarkdownLint Config [![npm](https://img.shields.io/npm/v/@theholocron/markdownlint-config?color=red)](https://www.npmjs.com/package/@theholocron/markdownlint-config)
 
 A [MarkdownLint configuration](https://github.com/igorshubovych/markdownlint-cli#configuration) for writing well-formatted documentation within the Galaxy.
 

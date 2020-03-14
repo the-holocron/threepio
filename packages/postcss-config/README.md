@@ -1,4 +1,4 @@
-# PostCSS Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# PostCSS Config [![npm](https://img.shields.io/npm/v/@theholocron/postcss-config?color=red)](https://www.npmjs.com/package/@theholocron/postcss-config)
 
 A [PostCSS configuration](https://github.com/postcss/postcss-cli#config) for processing (S)CSS within the Galaxy.
 
@@ -11,6 +11,7 @@ npm install --save-dev @theholocron/postcss-config
 ## Table of Contents
 
 - [Usage](#usage)
+- [Rules](#how-we-transform-our-css)
 - [Changelog](#how-we-track-changes)
 - [Versioning](#how-we-version)
 - [Contribution](#how-to-contribute)
@@ -46,6 +47,13 @@ module: {
     },
 };
 ```
+
+## How We Transform Our CSS
+
+While we don't directly use [PostCSS](https://postcss.org/) for our transpilation of style code into raw CSS, we do use it the context of middleware in between our (S)CSS and final raw outputted CSS.  The following are a list of plugins we use:
+
+- [`autoprefixer`](https://github.com/postcss/autoprefixer) - Uses [Can I Use](https://caniuse.com/) and [Browserslist](https://github.com/browserslist/browserslist) to determine which vendor prefixes and code should be used within our final output.
+- [`postcss-flexbugs-fixes`](https://github.com/luisrudge/postcss-flexbugs-fixes) - A PostCSS plugin to fix all of the documented flexbox bugs over at <https://github.com/philipwalton/flexbugs>.
 
 ## How We Track Changes [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.0.0-orange)](https://keepachangelog.com/en/1.0.0/)
 

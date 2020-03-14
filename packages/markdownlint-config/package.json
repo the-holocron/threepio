@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/markdownlint-config#readme",
   "description": "A MarkdownLint configuration for writing well-formatted documentation within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "index.js",
   "files": [
     "markdownlintrc.json",
@@ -24,10 +24,10 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint tests index.js",
+    "lint": "eslint .",
     "test": "jest --coverage"
   },
   "dependencies": {
-    "markdownlint-cli": "^0.17.0"
+    "markdownlint-cli": "^0.22.0"
   }
 }

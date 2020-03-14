@@ -1,4 +1,4 @@
-# CommitLint Config [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# CommitLint Config [![npm](https://img.shields.io/npm/v/@theholocron/commitlint-config?color=red)](https://www.npmjs.com/package/@theholocron/commitlint-config)
 
 A [CommitLint configuration](https://commitlint.js.org/#/reference-configuration) for writing properly formatted Git commits within the Galaxy.
 

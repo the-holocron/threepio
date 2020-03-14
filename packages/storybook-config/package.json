@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/storybook-config#readme",
   "description": "A Storybook configuration for developing React components within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "config.js",
   "files": [
     "addons.js",
@@ -32,11 +32,11 @@
     "test": "jest --coverage --passWithNoTests"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "5.1.0-alpha.33",
+    "@storybook/addon-a11y": "5.3.14",
     "@storybook/addon-actions": "5.1.0-alpha.33",
     "@storybook/addon-knobs": "5.1.0-alpha.33",
     "@storybook/addon-links": "5.3.14",
-    "@storybook/addon-options": "5.1.0-alpha.33",
+    "@storybook/addon-options": "5.3.14",
     "@storybook/addon-viewport": "5.1.0-alpha.33",
     "@storybook/react": "5.1.0-alpha.33",
     "faker": "^4.1.0",

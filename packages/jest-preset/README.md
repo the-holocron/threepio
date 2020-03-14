@@ -1,4 +1,4 @@
-# Jest Preset [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# Jest Preset [![npm](https://img.shields.io/npm/v/@theholocron/jest-preset?color=red)](https://www.npmjs.com/package/@theholocron/jest-preset)
 
 A [Jest preset](https://facebook.github.io/jest/docs/en/configuration.html#preset-string) for testing code within the Galaxy.
 
@@ -11,6 +11,7 @@ npm install --save-dev @theholocron/jest-preset"
 ## Table of Contents
 
 - [Usage](#usage)
+- [Rules](#how-we-test)
 - [Changelog](#how-we-track-changes)
 - [Versioning](#how-we-version)
 - [Contribution](#how-to-contribute)
@@ -28,6 +29,13 @@ In your project `package.json` add the following:
   }
 }
 ```
+
+## How We Test
+
+Currently we use [Jest](https://jestjs.io/) for our testing framework.  There isn't much to our configuration that differs from what Jest provides out of the box with the following exceptions:
+
+- **Coverage**: we enforce coverage collection and require that all work be covered at least 80% at this time.  If the library has increased above that standard, then it is expected to override the configuration and maintain the higher level of standards.  However, it is not allowed to lower the standard.
+- **Directory Naming**: while we do support the [same regex that Jest provides](https://jestjs.io/docs/en/configuration#testregex-string--arraystring), our convention is to name the test directory as `test`.  In the event the library is simple, the directory should be on the same level as the `src` code; in the event of a more complex scenario, then it is okay to place the directory in within the same level as the code being tested.
 
 ## How We Track Changes [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.0.0-orange)](https://keepachangelog.com/en/1.0.0/)
 

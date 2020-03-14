@@ -28,9 +28,9 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
-    "@commitlint/prompt-cli": "^8.0.0"
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/prompt-cli": "^8.3.5"
   },
   "devDependencies": {
     "@theholocron/eslint-config": "file:../eslint-config",

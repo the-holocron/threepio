@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/the-holocron/threepio/compare/@theholocron/browserslist-config@0.1.5...@theholocron/browserslist-config@0.1.6) (2020-03-14)
+
+
+### Bug Fixes
+
+* update deps/test ([a7f0289](https://github.com/the-holocron/threepio/commit/a7f0289bc99cf524b41df7da8429f22189d5fcf7))
+
+
+
+
+
 ## [0.1.5](https://github.com/the-holocron/threepio/compare/@theholocron/browserslist-config@0.1.4...@theholocron/browserslist-config@0.1.5) (2020-03-14)
 
 

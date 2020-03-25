@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/the-holocron/threepio/compare/@theholocron/lint-staged-config@0.1.5...@theholocron/lint-staged-config@0.1.6) (2020-03-25)
+
+
+### Bug Fixes
+
+* lint-staged new API ([6d257e0](https://github.com/the-holocron/threepio/commit/6d257e0100483227ce2acc9d3e748f2d81b9969c))
+
+
+
+
+
 ## [0.1.5](https://github.com/the-holocron/threepio/compare/@theholocron/lint-staged-config@0.1.4...@theholocron/lint-staged-config@0.1.5) (2020-03-14)
 
 **Note:** Version bump only for package @theholocron/lint-staged-config

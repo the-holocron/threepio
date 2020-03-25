@@ -2,15 +2,9 @@
 
 exports[`Configuration Lint Staged should render the configuration 1`] = `
 Object {
-  "linters": Object {
-    "src/**/*.js": Array [
-      "eslint --fix",
-      "git add",
-    ],
-    "src/**/*.scss": Array [
-      "stylelint --fix",
-      "git add",
-    ],
-  },
+  "*.css": "stylelint --fix",
+  "*.js": "eslint --fix",
+  "*.scss": "stylelint --syntax=scss --fix",
+  "*.{png,jpeg,jpg,gif,svg}": "imagemin-lint-staged",
 }
 `;

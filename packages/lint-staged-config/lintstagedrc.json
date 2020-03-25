@@ -1,12 +1,6 @@
 {
-  "linters": {
-    "src/**/*.scss": [
-      "stylelint --fix",
-      "git add"
-    ],
-    "src/**/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  }
+  "*.js": "eslint --fix",
+  "*.css": "stylelint --fix",
+  "*.scss": "stylelint --syntax=scss --fix",
+  "*.{png,jpeg,jpg,gif,svg}": "imagemin-lint-staged"
 }

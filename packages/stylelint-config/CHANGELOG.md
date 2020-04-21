@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.8](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.3.7...@theholocron/stylelint-config@0.3.8) (2020-04-21)
+
+
+### Bug Fixes
+
+* **stylelint:** tweaks to named arguments ([d015349](https://github.com/the-holocron/threepio/commit/d0153490bb402de8c75c5e3f5b0221a6c43bbed7))
+
+
+
+
+
 ## [0.3.7](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.3.6...@theholocron/stylelint-config@0.3.7) (2020-04-21)
 
 

@@ -5,7 +5,7 @@ A [MarkdownLint configuration](https://github.com/igorshubovych/markdownlint-cli
 ## Installation
 
 ```bash
-npm install --save-dev @theholoconr/markdownlint-config
+npm install --save-dev @theholocron/markdownlint-config
 ```
 
 ## Table of Contents
@@ -25,7 +25,7 @@ In your project `package.json` add the following:
 ```json
 {
   "scripts": {
-    "markdownlint": "markdownlint --config ./node_modules/markdownlint-config-iamnewton/markdownlintrc.json"
+    "markdownlint": "markdownlint --config ./node_modules/@theholocron/markdownlint-config/markdownlintrc.json"
   }
 }
 ```

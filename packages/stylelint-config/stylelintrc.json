@@ -125,7 +125,13 @@
     "at-rule-no-vendor-prefix": true,
     "at-rule-whitelist": null,
     "comment-word-blacklist": null,
-    "max-nesting-depth": 4,
+    "max-nesting-depth": [
+      4,
+      {
+        "ignore": [ "blockless-at-rules", "pseudo-classes" ],
+        "ignoreAtRules": [ "media", "include" ]
+      }
+    ],
     "no-unknown-animations": true,
 
     "color-hex-case": "lower",

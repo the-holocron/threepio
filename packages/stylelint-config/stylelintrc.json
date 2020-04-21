@@ -259,7 +259,10 @@
     "scss/at-else-if-parentheses-space-before": "always",
     "scss/at-function-named-arguments": [
       "always",
-      { "ignore": [ "single-argument" ] }
+      {
+        "ignore": [ "single-argument" ],
+        "ignoreFunctions": [ "/^color./i", "/^list./i", "/^map./i", "/^math./i", "/^meta./i", "/^selector./i", "/^string./i" ]
+      }
     ],
     "scss/at-function-parentheses-space-before": "never",
     "scss/at-function-pattern": "^[a-z0-9\\-]+$",

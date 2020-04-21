@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.3.5...@theholocron/stylelint-config@0.3.6) (2020-04-21)
+
+
+### Bug Fixes
+
+* **stylelint:** max-nesting-depth ignores some rules ([53a1067](https://github.com/the-holocron/threepio/commit/53a10671159b89c0a65845e606334b6def87ae60))
+
+
+
+
+
 ## [0.3.5](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.3.4...@theholocron/stylelint-config@0.3.5) (2020-04-21)
 
 **Note:** Version bump only for package @theholocron/stylelint-config

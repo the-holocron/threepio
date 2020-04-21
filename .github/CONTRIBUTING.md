@@ -243,12 +243,12 @@ Not the main tasks that get run everyday, but in the event you need finer contro
 |-----------------|-------------| ----- |
 | `npm run commit` | Runs the interactive `commitlint` for help contributing an [acceptable commit message](#commit-conventions) | <https://commitlint.js.org>
 | `npm run dist:css` | Runs `node-sass` and `postcss` to compile the (S)CSS into CSS | <https://sass-lang.com>, <https://postcss.org>
-| `npm run dist:js` | Runs `babel` to compile the JS(X) into JS; check out the [config](https://github.com/iamnewton/babel-preset) | <https://babeljs.io>
-| `npm run lint:css` | Runs `stylelint` to test the (S)CSS for style violations; check out the [rules](https://github.com/iamnewton/stylelint-config/blob/master/stylelintrc.json#L20-L669) | <https://stylelint.io>
-| `npm run lint:js` | Runs `eslint` to test the JS(X) for style violations; check out the [rules](https://github.com/platform/eslint-config/blob/master/eslintrc.json#L49-L415) | <https://eslint.org>
+| `npm run dist:js` | Runs `babel` to compile the JS(X) into JS; check out the [config](https://github.com/the-holocron/astromech/tree/master/packages/babel-preset) | <https://babeljs.io>
+| `npm run lint:css` | Runs `stylelint` to test the (S)CSS for style violations; check out the [rules](https://github.com/the-holocron/astromech/tree/master/packages/stylelint-config/blob/master/stylelintrc.json#L20-L669) | <https://stylelint.io>
+| `npm run lint:js` | Runs `eslint` to test the JS(X) for style violations; check out the [rules](https://github.com/the-holocron/astromech/tree/master/packages/eslint-config/blob/master/eslintrc.json#L49-L415) | <https://eslint.org>
 | `npm run test:docs`  | Runs `alex` to test for sensitive language | <https://alexjs.com>
-| `npm run test:js`  | Runs `jest` for testing on (S)CSS mixins, and JavaScript; check out the [config](https://github.com/iamnewton/jest-preset) | <https://jestjs.io>
-| `npm run docs` | Runs `storybook` to build out the `docs/`; check out the [config](/.storybook/config.js) | <https://storybook.js.org>
+| `npm run test:js`  | Runs `jest` for testing on (S)CSS mixins, and JavaScript; check out the [config](https://github.com/the-holocron/astromech/tree/master/packages/jest-preset) | <https://jestjs.io>
+| `npm run docs` | Runs `storybook` to build out the `docs/`; check out the [config](the-holocron/astromech/tree/master/packages/storybook-config/config.js) | <https://storybook.js.org>
 
 ### Commit Conventions
 

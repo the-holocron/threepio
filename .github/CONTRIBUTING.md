@@ -232,8 +232,7 @@ These tasks are run most often, and most are required to pass checks before any 
 | `npm run dist`  | Runs `babel` and `node-sass` compliers to convert (S)CSS and JS(X) to browser-friendly code | No reason to run this unless you're debugging output of code. This is run as part of the publishing process, so ensuring it passes can help. |
 | `npm run lint`  | Runs the linting suite; includes markdown, (s)css, and javascript | Husky will attempt to run this on every commit and auto-fix.  While it's not required for this to pass and you may bypass with the flag of `--no-verify`, its good to run to help debugging and ensure a faster PR process. |
 | `npm test`  | Runs the testing suite; includes sensitive language, (s)css, and javascript | If the test coverage drops below the configured numbers, this will fail despite all tests pass.  In that event, you should see a message with the percentages to which it dropped.
-| `npm run typecheck` | Runs `flow` type checking on all related code |
-| `npm start` | Runs `storybook` on port `3500` to test component development | Make sure all variations are covered and all props have knobs
+| `npm start` | Runs `storybook` to test component development | Make sure all variations are covered and all props have knobs
 
 #### Ancillary Tasks
 

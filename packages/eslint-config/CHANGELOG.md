@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.2.3...@theholocron/eslint-config@0.2.4) (2020-04-21)
+
+
+### Bug Fixes
+
+* jest/empty-title is now jest/valid-title ([3b383bc](https://github.com/the-holocron/threepio/commit/3b383bc1d6aeba0bf85c0846f7291ac3af61c2a5))
+
+
+
+
+
 ## [0.2.3](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.2.2...@theholocron/eslint-config@0.2.3) (2020-03-25)
 
 **Note:** Version bump only for package @theholocron/eslint-config

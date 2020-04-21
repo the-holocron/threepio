@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/the-holocron/threepio/compare/@theholocron/browserslist-config@0.1.7...@theholocron/browserslist-config@0.1.8) (2020-04-21)
+
+**Note:** Version bump only for package @theholocron/browserslist-config
+
+
+
+
+
 ## [0.1.7](https://github.com/the-holocron/threepio/compare/@theholocron/browserslist-config@0.1.6...@theholocron/browserslist-config@0.1.7) (2020-03-25)
 
 **Note:** Version bump only for package @theholocron/browserslist-config

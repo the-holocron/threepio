@@ -261,7 +261,7 @@
       "always",
       {
         "ignore": [ "single-argument" ],
-        "ignoreFunctions": [ "/^color./i", "/^list./i", "/^map./i", "/^math./i", "/^meta./i", "/^selector./i", "/^string./i", "average", "if" ]
+        "ignoreFunctions": [ "/^color./i", "/^list./i", "/^map./i", "/^math./i", "/^meta./i", "/^selector./i", "/^string./i", "average", "if", "flat" ]
       }
     ],
     "scss/at-function-parentheses-space-before": "never",

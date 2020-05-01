@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/stylelint-config#readme",
   "description": "A StyleLint configuration for writing well-formed (S)CSS within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.3.10",
+  "version": "0.4.0",
   "main": "index.js",
   "files": [
     "stylelintrc.json",

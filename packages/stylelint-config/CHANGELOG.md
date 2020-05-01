@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.3.10...@theholocron/stylelint-config@0.4.0) (2020-05-01)
+
+
+### Features
+
+* mixins should use named arguments ([cbc1fda](https://github.com/the-holocron/threepio/commit/cbc1fdadbacdc9bd9ac6adbfefa07f6d8b2cd9ba))
+
+
+
+
+
 ## [0.3.10](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.3.9...@theholocron/stylelint-config@0.3.10) (2020-04-21)
 
 

@@ -28,7 +28,7 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "babel-jest": "25.1.0",
+    "babel-jest": "26.0.1",
     "jest": "25.1.0",
     "sass-true": "^5.0.0"
   }

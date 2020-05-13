@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/the-holocron/threepio/compare/@theholocron/storybook-config@0.3.3...@theholocron/storybook-config@0.4.0) (2020-05-13)
+
+
+### Features
+
+* **storybook-config:** upgrade deps ([6b0f3fc](https://github.com/the-holocron/threepio/commit/6b0f3fc17b369cbc3237488a758619bf347cf3b3))
+
+
+
+
+
 ## [0.3.3](https://github.com/the-holocron/threepio/compare/@theholocron/storybook-config@0.3.2...@theholocron/storybook-config@0.3.3) (2020-03-25)
 
 **Note:** Version bump only for package @theholocron/storybook-config

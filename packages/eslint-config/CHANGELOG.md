@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.2.5...@theholocron/eslint-config@0.3.0) (2020-12-08)
+
+
+### Features
+
+* **eslint-config:** change to tabs ([52c531d](https://github.com/the-holocron/threepio/commit/52c531dbd5f47f5cadad589c6be9e8c502780a0a))
+
+
+
+
+
 ## [0.2.5](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.2.4...@theholocron/eslint-config@0.2.5) (2020-05-01)
 
 **Note:** Version bump only for package @theholocron/eslint-config

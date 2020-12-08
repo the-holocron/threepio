@@ -305,7 +305,7 @@
     "react/jsx-closing-tag-location": "warn",
     "react/jsx-curly-spacing": ["error", "never"],
     "react/jsx-equals-spacing": ["error", "never"],
-    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/jsx-filename-extension": ["warn", { "allow": "as-needed" }],
     "react/jsx-first-prop-new-line": ["warn", "multiline"],
     "react/jsx-indent": ["error", "tab"],
     "react/jsx-indent-props": ["error", "tab"],

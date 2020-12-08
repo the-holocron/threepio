@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.9](https://github.com/the-holocron/threepio/compare/@theholocron/babel-preset@0.3.8...@theholocron/babel-preset@0.3.9) (2020-12-08)
+
+**Note:** Version bump only for package @theholocron/babel-preset
+
+
+
+
+
 ## [0.3.8](https://github.com/the-holocron/threepio/compare/@theholocron/babel-preset@0.3.7...@theholocron/babel-preset@0.3.8) (2020-12-08)
 
 **Note:** Version bump only for package @theholocron/babel-preset

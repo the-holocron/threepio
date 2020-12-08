@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.4.0...@theholocron/eslint-config@0.4.1) (2020-12-08)
+
+
+### Bug Fixes
+
+* **eslint-config:** jsx extensions ([8605b8d](https://github.com/the-holocron/threepio/commit/8605b8d04b86126e2fe1ae0a9f01f9390bac0746))
+
+
+
+
+
 # [0.4.0](https://github.com/the-holocron/threepio/compare/@theholocron/eslint-config@0.3.0...@theholocron/eslint-config@0.4.0) (2020-12-08)
 
 

@@ -26,6 +26,9 @@ module.exports = async function ({ name, watch }) {
 				chunkFileNames: '[name].js',
 			},
 		],
+		plugins: [
+			nodeResolve(),
+		],
 	});
 
 	// Minified iife

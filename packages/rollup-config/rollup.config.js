@@ -1,7 +1,9 @@
 const { terser } = require('rollup-plugin-terser');
 const del = require('del');
 
-module.exports = async function ({ filename, watch, output = 'dist' }) {
+module.exports = async function ({ name, watch }) {
+	const output = 'dist';
+
 	await del(output);
 
 	const builds = [];
@@ -37,7 +39,7 @@ module.exports = async function ({ filename, watch, output = 'dist' }) {
 			file: `${output}/iife/index.min.js`,
 			format: 'iife',
 			esModule: false,
-			name: filename,
+			name,
 		},
 	});
 

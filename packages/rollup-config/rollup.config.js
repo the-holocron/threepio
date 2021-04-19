@@ -1,3 +1,4 @@
+const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const { terser } = require('rollup-plugin-terser');
 const del = require('del');
 
@@ -31,6 +32,7 @@ module.exports = async function ({ name, watch }) {
 	builds.push({
 		input: `${output}/esm/index.js`,
 		plugins: [
+			nodeResolve(),
 			terser({
 				compress: { ecma: 2019 },
 			}),

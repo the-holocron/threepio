@@ -28,6 +28,7 @@
     "test": "jest --coverage"
   },
   "dependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.1",
     "del": "^6.0.0",
     "rollup": "^2.45.2",
     "rollup-plugin-terser": "^7.0.2"
@@ -35,8 +36,5 @@
   "devDependencies": {
     "@theholocron/eslint-config": "file:../eslint-config",
     "@theholocron/jest-preset": "file:../jest-preset"
-  },
-  "peerDependences": {
-    "@theholocron/browserslist-config": "^0.1.0"
   }
 }

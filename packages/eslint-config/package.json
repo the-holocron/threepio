@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/eslint-config#readme",
   "description": "An ESLint configuration for writing well-formed Javascript within the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": "index.js",
   "files": [
     "eslintrc.json",

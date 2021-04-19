@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/the-holocron/threepio/compare/@theholocron/babel-preset@0.3.10...@theholocron/babel-preset@0.4.0) (2021-04-19)
+
+
+### Features
+
+* add in babel-transform-runtime for tests ([9072a93](https://github.com/the-holocron/threepio/commit/9072a9321cc677eda831172eb8516516202d1137))
+
+
+
+
+
 ## [0.3.10](https://github.com/the-holocron/threepio/compare/@theholocron/babel-preset@0.3.9...@theholocron/babel-preset@0.3.10) (2020-12-08)
 
 **Note:** Version bump only for package @theholocron/babel-preset

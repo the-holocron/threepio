@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/jest-preset@0.2.3...@theholocron/jest-preset@0.3.0) (2021-04-19)
+
+
+### Bug Fixes
+
+* jest-preset regex ([f70e01d](https://github.com/the-holocron/threepio/commit/f70e01db3a457989f93b8621f6e48998c800dd9c))
+
+
+### Features
+
+* ignore some tests directories ([bb81add](https://github.com/the-holocron/threepio/commit/bb81add7afd6ba303757f21a7633865095955356))
+
+
+
+
+
 ## [0.2.3](https://github.com/the-holocron/threepio/compare/@theholocron/jest-preset@0.2.2...@theholocron/jest-preset@0.2.3) (2020-03-14)
 
 

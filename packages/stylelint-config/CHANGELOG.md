@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.4.0...@theholocron/stylelint-config@0.4.1) (2021-04-19)
+
+**Note:** Version bump only for package @theholocron/stylelint-config
+
+
+
+
+
 # [0.4.0](https://github.com/the-holocron/threepio/compare/@theholocron/stylelint-config@0.3.10...@theholocron/stylelint-config@0.4.0) (2020-05-01)
 
 

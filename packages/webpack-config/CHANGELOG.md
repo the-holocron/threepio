@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/the-holocron/threepio/compare/@theholocron/webpack-config@0.2.5...@theholocron/webpack-config@0.2.6) (2021-04-19)
+
+
+### Bug Fixes
+
+* update security updates ([ee3caec](https://github.com/the-holocron/threepio/commit/ee3caecbab1a3c39cd76b8f3afa683fc6e1351a9))
+
+
+
+
+
 ## [0.2.5](https://github.com/the-holocron/threepio/compare/@theholocron/webpack-config@0.2.4...@theholocron/webpack-config@0.2.5) (2020-03-25)
 
 **Note:** Version bump only for package @theholocron/webpack-config

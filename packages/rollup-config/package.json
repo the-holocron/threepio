@@ -1,0 +1,42 @@
+{
+  "name": "@theholocron/rollup-config",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/rollup-config#readme",
+  "description": "A Rollup configuration for bundling next generation Javascript in the Galaxy.",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "rollup.config.js",
+    "index.js"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "rollup": "^2.45.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset"
+  },
+  "peerDependences": {
+    "@theholocron/browserslist-config": "^0.1.0"
+  }
+}

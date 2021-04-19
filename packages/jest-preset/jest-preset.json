@@ -15,12 +15,18 @@
       "functions": 80
     }
   },
+  "displayName": "Unit Tests",
   "modulePathIgnorePatterns": [
       "<rootDir>/dist/"
   ],
   "testRegex": [
     "(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
     "(/tests?/.*|(\\.|/)(test|spec))\\.[jt]sx?$"
+  ],
+  "testPathIgnorePatterns": [
+    "<rootDir>/node_modules/",
+    "<rootDir>/**/*.{mocks,mock}.js",
+    "<rootDir>/**/coverage/"
   ],
   "transform": {
     "^.+\\.js$": "babel-jest"

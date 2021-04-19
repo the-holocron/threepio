@@ -17,7 +17,7 @@ Object {
         },
       },
       Object {
-        "include": "/Users/chrisopedia/Code/holocron",
+        "include": "/Volumes/T7/holocron",
         "test": /\\\\\\.scss\\$/,
         "use": Array [
           Object {

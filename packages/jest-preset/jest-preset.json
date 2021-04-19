@@ -24,9 +24,9 @@
     "(/tests?/.*|(\\.|/)(test|spec))\\.[jt]sx?$"
   ],
   "testPathIgnorePatterns": [
-    "<rootDir>/node_modules/",
-    "<rootDir>/**/*.{mocks,mock}.js",
-    "<rootDir>/**/coverage/"
+    "/coverage/",
+    "/node_modules/",
+    "((\\.|/)(mocks|mock))\\.[jt]sx?$"
   ],
   "transform": {
     "^.+\\.js$": "babel-jest"

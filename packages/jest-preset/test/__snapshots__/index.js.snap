@@ -18,8 +18,14 @@ Object {
       "statements": 80,
     },
   },
+  "displayName": "Unit Tests",
   "modulePathIgnorePatterns": Array [
     "<rootDir>/dist/",
+  ],
+  "testPathIgnorePatterns": Array [
+    "/coverage/",
+    "/node_modules/",
+    "((\\\\.|/)(mocks|mock))\\\\.[jt]sx?$",
   ],
   "testRegex": Array [
     "(/__tests__/.*|(\\\\.|/)(test|spec))\\\\.[jt]sx?$",

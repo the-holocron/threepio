@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/bundlewatch-config#readme",
   "description": "A Bundlewatch configuration for monitoring the file size of libraries in the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "index.js",
   "files": [
     "bundlewatch.css.config.json",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/semantic-release-config@0.2.5...@theholocron/semantic-release-config@0.3.0) (2021-04-20)
+
+
+### Features
+
+* upgrade semantic release ([09ae9bd](https://github.com/the-holocron/threepio/commit/09ae9bdba229bc27fe3c4db26675ffbf7d6a056a))
+
+
+
+
+
 ## [0.2.5](https://github.com/the-holocron/threepio/compare/@theholocron/semantic-release-config@0.2.4...@theholocron/semantic-release-config@0.2.5) (2021-04-19)
 
 **Note:** Version bump only for package @theholocron/semantic-release-config

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preset Prettier should render the configuration 1`] = `
+Object {
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "printWidth": 120,
+  "quoteProps": "as-needed",
+  "semi": true,
+  "tabWidth": 4,
+  "trailingComma": "es5",
+  "useTabs": true,
+}
+`;

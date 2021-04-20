@@ -34,12 +34,15 @@ Check the README for each configuration within the `packages` directory for spec
 
 - [babel-preset](./packages/babel-preset#readme) - A Babel preset for transpiling next generation Javascript.
 - [browserslist-config](./packages/browserslist-config#readme) - A Browserslist configuration for all browsers and devices supported.
+- [bundlewatch-config](./packages/bundlewatch-config#readme) - A Bundlewatch configuration for all for monitoring package scope creep.
 - [commitlint-config](./packages/commitlint-config#readme) - A CommitLint configuration for writing Git commits.
 - [eslint-config](./packages/eslint-config#readme) - An ESLint configuration for writing well-formed Javascript.
 - [jest-preset](./packages/jest-preset#readme) - A Jest preset for testing code.
 - [lint-staged-config](./packages/lint-staged-config#readme) - A Lint Staged configuration for linting code that has been staged in Git.
 - [markdownlint-config](./packages/markdownlint-config#readme) - A MarkdownLint configuration for writing well-formatted documentation.
 - [postcss-config](./packages/postcss-config#readme) - A PostCSS configuration for processing (S)CSS.
+- [prettier-config](./packages/prettier-config#readme) - A Prettier configuration for formatting libraries.
+- [rollup-config](./packages/rollup-config#readme) - A Rollup configuration for bundling libraries.
 - [semantic-release-config](./packages/semantic-release-config#readme) - A Semantic Release configuration for releasing code.
 - [storybook-config](./packages/storybook-config#readme) - A Storybook configuration for developing React components.
 - [stylelint-config](./packages/stylelint-config#readme) - A StyleLint configuration for writing well-formed (S)CSS.

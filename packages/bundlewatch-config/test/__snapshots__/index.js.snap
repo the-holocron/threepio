@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preset Bundlewatch should render the configuration 1`] = `
+Object {
+  "ci": Object {
+    "trackBranches": Array [
+      "main",
+    ],
+  },
+  "files": Array [
+    Object {
+      "maxSize": "100 kB",
+      "path": "./dist/**/*.js",
+    },
+    Object {
+      "maxSize": "35 kB",
+      "path": "./dist/**/*.css",
+    },
+  ],
+}
+`;

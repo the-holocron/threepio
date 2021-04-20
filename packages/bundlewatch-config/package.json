@@ -1,0 +1,37 @@
+{
+  "name": "@theholocron/bundlewatch-config",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/bundlewatch-config#readme",
+  "description": "A Bundlewatch configuration for monitoring the file size of libraries in the Galaxy.",
+  "author": "Newton Koumantzelis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "bundlewatch.config.json",
+    "index.js"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "bundlewatch": "^0.3.2"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config",
+    "@theholocron/jest-preset": "file:../jest-preset"
+  }
+}

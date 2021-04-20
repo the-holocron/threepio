@@ -3,13 +3,6 @@
     {
       "path": "./dist/**/*.js",
       "maxSize": "100 kB"
-    },
-    {
-      "path": "./dist/**/*.css",
-      "maxSize": "35 kB"
     }
-  ],
-  "ci": {
-    "trackBranches": ["main"]
-  }
+  ]
 }

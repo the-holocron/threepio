@@ -6,6 +6,7 @@
   "version": "0.2.0",
   "main": "index.js",
   "files": [
+    "bundlewatch.css.config.json",
     "bundlewatch.config.json",
     "index.js"
   ],

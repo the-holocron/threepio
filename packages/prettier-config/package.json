@@ -3,7 +3,7 @@
   "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/prettier-config#readme",
   "description": "A Prettier configuration for formatting libraries in the Galaxy.",
   "author": "Newton Koumantzelis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "files": [
     "prettier.config.js",

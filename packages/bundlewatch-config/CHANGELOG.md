@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/the-holocron/threepio/compare/@theholocron/bundlewatch-config@0.3.0...@theholocron/bundlewatch-config@0.3.1) (2021-04-20)
+
+
+### Bug Fixes
+
+* add in bundlesize ([495152e](https://github.com/the-holocron/threepio/commit/495152e3fd8ac1d73649b64e1f1543fca204915d))
+
+
+
+
+
 # [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/bundlewatch-config@0.2.0...@theholocron/bundlewatch-config@0.3.0) (2021-04-20)
 
 

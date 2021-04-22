@@ -39,7 +39,7 @@
     "@storybook/addon-options": "^5.3.18",
     "@storybook/addon-viewport": "^6.2.7",
     "@storybook/react": "^5.3.18",
-    "faker": "^4.1.0",
+    "faker": "^5.5.3",
     "fetch-mock": "^9.11.0",
     "react": "^16.13.1",
     "storybook-addon-jsx": "^7.2.3",

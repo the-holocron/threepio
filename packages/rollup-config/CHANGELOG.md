@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/the-holocron/threepio/compare/@theholocron/rollup-config@0.2.5...@theholocron/rollup-config@0.2.6) (2021-05-04)
+
+
+### Bug Fixes
+
+* input, output defaults ([e98ca0a](https://github.com/the-holocron/threepio/commit/e98ca0a7870967854edfdefc666c556a40f35d47))
+
+
+
+
+
 ## [0.2.5](https://github.com/the-holocron/threepio/compare/@theholocron/rollup-config@0.2.4...@theholocron/rollup-config@0.2.5) (2021-05-04)
 
 

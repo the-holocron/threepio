@@ -2,8 +2,9 @@ const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const { terser } = require('rollup-plugin-terser');
 const del = require('del');
 
-module.exports = async function ({ name, watch }) {
+module.exports = async function ({ name, input, watch }) {
 	const output = 'dist';
+	const input = input || 'src';
 
 	await del(output);
 
@@ -11,7 +12,7 @@ module.exports = async function ({ name, watch }) {
 
 	// Main
 	builds.push({
-		input: 'src/index.js',
+		input: `${input}/index.js`,
 		output: [
 			{
 				dir: `${output}/esm/`,

@@ -2,10 +2,7 @@ const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const { terser } = require('rollup-plugin-terser');
 const del = require('del');
 
-module.exports = async function ({ name, input, watch }) {
-	const output = 'dist';
-	const input = input || 'src';
-
+module.exports = async function ({ name, input = 'src', output = 'dist' }) {
 	await del(output);
 
 	const builds = [];

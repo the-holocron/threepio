@@ -1,9 +1,11 @@
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const { terser } = require('rollup-plugin-terser');
-const del = require('del');
 
-module.exports = async function ({ name, input = 'src', output = 'dist' }) {
-	await del(output);
+module.exports = async function (args) {
+	const input = args.input || 'src';
+	delete args.input;
+	const output = args.output || 'dist';
+	delete args.output;
 
 	const builds = [];
 
@@ -42,7 +44,7 @@ module.exports = async function ({ name, input = 'src', output = 'dist' }) {
 			file: `${output}/iife/index.min.js`,
 			format: 'iife',
 			esModule: false,
-			name,
+			name: args.name,
 		},
 	});
 

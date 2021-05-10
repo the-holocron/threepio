@@ -1,4 +1,5 @@
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
+const strip = require('@rollup/plugin-strip');
 const { terser } = require('rollup-plugin-terser');
 
 module.exports = async function (args) {
@@ -28,6 +29,13 @@ module.exports = async function (args) {
 		],
 		plugins: [
 			nodeResolve(),
+			strip({
+				function: [
+					'assert.*',
+					'console.*',
+					'echo.*',
+				],
+			}),
 		],
 	});
 

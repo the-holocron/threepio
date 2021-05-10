@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/the-holocron/threepio/compare/@theholocron/rollup-config@0.3.0...@theholocron/rollup-config@0.4.0) (2021-05-10)
+
+
+### Features
+
+* add in strip plugin to remove debug statements ([f537230](https://github.com/the-holocron/threepio/commit/f537230063d04a14d78e514641cf1449ac8dee3c))
+
+
+
+
+
 # [0.3.0](https://github.com/the-holocron/threepio/compare/@theholocron/rollup-config@0.2.6...@theholocron/rollup-config@0.3.0) (2021-05-04)
 
 

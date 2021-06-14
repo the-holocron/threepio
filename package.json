@@ -22,6 +22,7 @@
     "@theholocron/bundlewatch-config": "file:packages/bundlewatch-config",
     "@theholocron/commitlint-config": "file:packages/commitlint-config",
     "@theholocron/eslint-config": "file:packages/eslint-config",
+    "@theholocron/htmlhint-config": "file:packages/htmlhint-config",
     "@theholocron/jest-preset": "file:packages/jest-preset",
     "@theholocron/lint-staged-config": "file:packages/lint-staged-config",
     "@theholocron/markdownlint-config": "file:packages/markdownlint-config",

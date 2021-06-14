@@ -37,6 +37,7 @@ Check the README for each configuration within the `packages` directory for spec
 - [bundlewatch-config](./packages/bundlewatch-config#readme) - A Bundlewatch configuration for all for monitoring package scope creep.
 - [commitlint-config](./packages/commitlint-config#readme) - A CommitLint configuration for writing Git commits.
 - [eslint-config](./packages/eslint-config#readme) - An ESLint configuration for writing well-formed Javascript.
+- [htmlhint-config](./packages/htmlhint-config#readme) - A HTMLHint configuration for writing well-formed HTML.
 - [jest-preset](./packages/jest-preset#readme) - A Jest preset for testing code.
 - [lint-staged-config](./packages/lint-staged-config#readme) - A Lint Staged configuration for linting code that has been staged in Git.
 - [markdownlint-config](./packages/markdownlint-config#readme) - A MarkdownLint configuration for writing well-formatted documentation.

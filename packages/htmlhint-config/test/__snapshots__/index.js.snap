@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Configuration HTMLHint should render the configuration 1`] = `
+Object {
+  "alt-require": true,
+  "attr-lowercase": true,
+  "attr-no-duplication": true,
+  "attr-no-unnecessary-whitespace": true,
+  "attr-unsafe-chars": true,
+  "attr-value-double-quotes": true,
+  "attr-value-not-empty": true,
+  "doctype-first": true,
+  "doctype-html5": true,
+  "empty-tag-not-self-closed": false,
+  "head-script-disabled": false,
+  "id-class-ad-disabled": true,
+  "id-class-value": "dash",
+  "id-unique": true,
+  "inline-script-disabled": true,
+  "inline-style-disabled": true,
+  "space-tab-mixed-disabled": "tab",
+  "spec-char-escape": true,
+  "src-not-empty": true,
+  "style-disabled": true,
+  "tag-pair": true,
+  "tag-self-close": true,
+  "tagname-lowercase": true,
+  "title-require": true,
+}
+`;

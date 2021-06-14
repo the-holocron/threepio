@@ -1,0 +1,33 @@
+{
+  "name": "@theholocron/htmlhint-config",
+  "homepage": "https://github.com/the-holocron/threepio/tree/master/packages/htmlhint-config#readme",
+  "description": "A HTMLHint configuration for writing well-formed (S)CSS within the Galaxy.",
+  "author": "Newton Koumantzelis",
+  "version": "0.0.0",
+  "main": "index.js",
+  "files": [
+    "htmlhintrc.json",
+    "index.js"
+  ],
+  "repository": "https://github.com/the-holocron/threepio.git",
+  "bugs": "https://github.com/the-holocron/threepio/issues",
+  "releases": "https://github.com/the-holocron/threepio/releases",
+  "wiki": "https://github.com/the-holocron/threepio/wiki",
+  "license": "GPL-3.0",
+  "eslintConfig": {
+    "extends": "@theholocron"
+  },
+  "jest": {
+    "preset": "@theholocron/jest-preset"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "htmlhint": "^0.15.1"
+  }
+}

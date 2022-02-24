@@ -39,6 +39,10 @@
     "react-hooks"
   ],
 
+  "extends": [
+    "plugin:storybook/recommended"
+  ],
+
   "rules": {
     "for-direction": "off",
     "getter-return": "off",

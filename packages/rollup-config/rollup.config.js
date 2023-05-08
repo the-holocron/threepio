@@ -1,3 +1,4 @@
+const { babel } = require('@rollup/plugin-babel');
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const strip = require('@rollup/plugin-strip');
 const { terser } = require('rollup-plugin-terser');
@@ -29,6 +30,28 @@ module.exports = async function (args) {
 		],
 		plugins: [
 			nodeResolve(),
+			babel({
+				babelHelpers: 'bundled',
+				exclude: 'node_modules/**',
+				presets: [
+					[ '@babel/preset-env', {
+						'targets': {
+							'browsers': [
+								'chrome >= 61',
+								'safari >=8',
+								'edge >= 14',
+								'ff >= 57',
+								'ie >= 11',
+								'ios >= 8'
+							]
+						},
+						modules: false,
+						forceAllTransforms: true,
+						useBuiltIns: 'usage'
+						corejs: '3.0',
+					}]
+				],
+			}),
 			strip({
 				function: [
 					'assert.*',

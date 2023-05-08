@@ -56,6 +56,8 @@ jobs:
         env:
           CI: true
         run: npm ci
+      - name: Bootstrap
+        run: npm run bootstrap
       - name: Compile
         run: npm run dist
       - name: Publish

@@ -47,7 +47,7 @@ module.exports = async function (args) {
 						},
 						modules: false,
 						forceAllTransforms: true,
-						useBuiltIns: 'usage'
+						useBuiltIns: 'usage',
 						corejs: '3.0',
 					}]
 				],

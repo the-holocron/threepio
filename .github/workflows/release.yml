@@ -19,8 +19,7 @@ jobs:
     strategy:
       matrix:
         node:
-          - 16
-          - 18
+          - 19
           - 20
         os:
           - ubuntu-latest
@@ -44,7 +43,6 @@ jobs:
 
   publish:
     name: Publish
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -52,7 +50,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v1
         with:
-          node-version: 18
+          node-version: 19
           registry-url: https://registry.npmjs.org
       - name: Install
         env:

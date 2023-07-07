@@ -32,7 +32,7 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "stylelint": "^10.0.1",
+    "stylelint": "^15.10.1",
     "stylelint-8-point-grid": "^0.2.1",
     "stylelint-checkstyle-formatter": "^0.1.1",
     "stylelint-color-format": "^1.0.0",

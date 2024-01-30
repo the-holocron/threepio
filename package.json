@@ -30,7 +30,6 @@
     "@theholocron/prettier-config": "file:./packages/prettier-config",
     "@theholocron/rollup-config": "file:./packages/rollup-config",
     "@theholocron/semantic-release-config": "file:./packages/semantic-release-config",
-    "@theholocron/storybook-config": "file:./packages/storybook-config",
     "@theholocron/stylelint-config": "file:./packages/stylelint-config",
     "@theholocron/webpack-config": "file:./packages/webpack-config",
     "lerna": "^6.4.1",

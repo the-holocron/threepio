@@ -39,7 +39,7 @@ jobs:
       - name: Install dependencies
         env:
           CI: true
-        run: npm ci
+        run: npm ci --legacy-peer-deps
       - name: Lint documentation
         run: npm run lint:docs
       - name: Lint Javascript

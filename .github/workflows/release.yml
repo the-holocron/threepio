@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         env:
           CI: true
-        run: npm ci
+        run: npm ci --legacy-peer-deps
       - name: Lint
         run: npm run lint
       - name: Unit tests
@@ -55,7 +55,7 @@ jobs:
       - name: Install
         env:
           CI: true
-        run: npm ci
+        run: npm ci --legacy-peer-deps
       - name: Bootstrap
         run: npm run bootstrap
       - name: Compile

@@ -1,8 +1,8 @@
 /* eslint-env jest */
-const config = require('../babel.config.js');
+const config = require("../babel.config.js");
 
-describe('Preset', () => {
-	describe('Babel', () => {
-		it('should render the configuration', () => expect(config).toMatchSnapshot());
+describe("preset", () => {
+	describe("babel", () => {
+		test("should render the configuration", () => expect(config).toMatchSnapshot());
 	});
 });

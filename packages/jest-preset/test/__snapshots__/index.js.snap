@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Preset Jest should render the configuration 1`] = `
+exports[`preset jest should render the configuration 1`] = `
 Object {
   "collectCoverage": true,
   "collectCoverageFrom": Array [

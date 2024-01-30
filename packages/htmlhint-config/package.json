@@ -29,5 +29,8 @@
   },
   "dependencies": {
     "htmlhint": "^0.15.1"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config"
   }
 }

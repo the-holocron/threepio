@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Configuration HTMLHint should render the configuration 1`] = `
+exports[`configuration hTMLHint should render the configuration 1`] = `
 Object {
   "alt-require": true,
   "attr-lowercase": true,

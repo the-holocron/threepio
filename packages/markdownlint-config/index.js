@@ -1,1 +1,1 @@
-module.exports = require('./markdownlintrc.json');
+module.exports = require("./markdownlintrc.json");

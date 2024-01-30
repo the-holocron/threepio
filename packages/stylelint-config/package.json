@@ -49,6 +49,9 @@
     "stylelint-z-index-value-constraint": "^1.0.0",
     "subsetcss": "^0.2.6"
   },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config"
+  },
   "peerDependencies": {
     "@theholocron/browserslist-config": "^0.1.0"
   }

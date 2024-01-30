@@ -1,7 +1,7 @@
-const config = require('../');
+const config = require("../");
 
-describe('Configuration', () => {
-	describe('Webpack', () => {
-		it('should render the configuration', () => expect(config).toMatchSnapshot());
+describe("configuration", () => {
+	describe("webpack", () => {
+		test("should render the configuration", () => expect(config).toMatchSnapshot());
 	});
 });

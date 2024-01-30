@@ -1,1 +1,1 @@
-module.exports = require('./browserslistrc.json');
+module.exports = require("./browserslistrc.json");

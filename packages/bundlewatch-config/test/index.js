@@ -1,8 +1,8 @@
 /* eslint-env jest */
-const config = require('../bundlewatch.config.json');
+const config = require("../bundlewatch.config.json");
 
-describe('Preset', () => {
-	describe('Bundlewatch', () => {
-		it('should render the configuration', () => expect(config).toMatchSnapshot());
+describe("preset", () => {
+	describe("bundlewatch", () => {
+		test("should render the configuration", () => expect(config).toMatchSnapshot());
 	});
 });

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Configuration Semantic Release should render the configuration 1`] = `
+exports[`configuration semantic Release should render the configuration 1`] = `
 Object {
   "plugins": Array [
     Array [

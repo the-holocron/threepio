@@ -26,7 +26,10 @@ In your project `package.json` add the following:
 {
   "eslintConfig": {
     "extends": "@theholocron"
-  }
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore '**/*.{js,jsx,ts,tsx}'",
+  },
 }
 ```
 
@@ -34,11 +37,19 @@ In your project `package.json` add the following:
 
 - **1 tab character**
 - **Semicolons**
-- [Sort JSX Props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md): errors; sorted alphabetically, with shorthand first
-- [Sort Imports](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md): errors; sorted alphabetically by import with grouping order of "builtin", "external", "parent", "sibling", and "index"
 - Switch statements updates
     - [No Case Declarations](https://eslint.org/docs/rules/no-case-declarations): errors, all; requires `{}` in all cases/defaults of the Switch statement to prevent hoisting
     - [Curly](https://eslint.org/docs/rules/curly): errors; require `{}` in all code regardless of single line availability
+
+### Plugins/Presets
+
+- [Browser Compatibility](https://github.com/amilajack/eslint-plugin-compat)
+- [Sort `import`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md): sorted alphabetically by import with grouping order of "builtin", "external", "parent", "sibling", and "index"
+- [Jest tests](https://github.com/jest-community/eslint-plugin-jest)
+- [React Accessibility](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
+- [Node](https://github.com/eslint-community/eslint-plugin-n)
+- [Promises](https://github.com/eslint-community/eslint-plugin-promise)
+- [Sort JSX Props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md): errors; sorted alphabetically, with shorthand first
 - [React hooks plugin](https://www.npmjs.com/package/eslint-plugin-react-hooks)
     - error; only call hooks at the top-level
     - error; only call hooks from React functions

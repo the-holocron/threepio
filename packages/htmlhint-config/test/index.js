@@ -1,7 +1,7 @@
-const config = require('../htmlhintrc.json');
+const config = require("../htmlhintrc.json");
 
-describe('Configuration', () => {
-	describe('HTMLHint', () => {
-		it('should render the configuration', () => expect(config).toMatchSnapshot());
+describe("configuration", () => {
+	describe("hTMLHint", () => {
+		test("should render the configuration", () => expect(config).toMatchSnapshot());
 	});
 });

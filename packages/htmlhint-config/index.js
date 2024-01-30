@@ -1,1 +1,1 @@
-module.exports = require('./htmlhintrc.json');
+module.exports = require("./htmlhintrc.json");

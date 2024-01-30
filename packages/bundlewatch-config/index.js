@@ -1,1 +1,1 @@
-module.exports = require('./bundlewatch.config.json');
+module.exports = require("./bundlewatch.config.json");

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Configuration Lint Staged should render the configuration 1`] = `
+exports[`configuration lint Staged should render the configuration 1`] = `
 Object {
   "*.css": "stylelint --fix",
   "*.js": "eslint --fix",

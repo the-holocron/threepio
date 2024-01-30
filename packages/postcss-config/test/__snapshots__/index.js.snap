@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Configuration PostCSS should render the configuration 1`] = `
+exports[`configuration postCSS should render the configuration 1`] = `
 Object {
   "plugins": Array [
     [Function],

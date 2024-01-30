@@ -1,1 +1,1 @@
-module.exports = require('./commitlintrc.json');
+module.exports = require("./commitlintrc.json");

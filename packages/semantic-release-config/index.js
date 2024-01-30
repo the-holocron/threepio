@@ -1,1 +1,1 @@
-module.exports = require('./releaserc.json');
+module.exports = require("./releaserc.json");

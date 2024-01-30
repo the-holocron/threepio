@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Preset Bundlewatch should render the configuration 1`] = `
+exports[`preset bundlewatch should render the configuration 1`] = `
 Object {
   "files": Array [
     Object {

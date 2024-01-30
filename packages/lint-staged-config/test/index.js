@@ -1,7 +1,7 @@
-const config = require('../lintstagedrc.json');
+const config = require("../lintstagedrc.json");
 
-describe('Configuration', () => {
-	describe('Lint Staged', () => {
-		it('should render the configuration', () => expect(config).toMatchSnapshot());
+describe("configuration", () => {
+	describe("lint Staged", () => {
+		test("should render the configuration", () => expect(config).toMatchSnapshot());
 	});
 });

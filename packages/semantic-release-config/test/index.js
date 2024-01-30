@@ -1,7 +1,7 @@
-const config = require('../releaserc.json');
+const config = require("../releaserc.json");
 
-describe('Configuration', () => {
-	describe('Semantic Release', () => {
-		it('should render the configuration', () => expect(config).toMatchSnapshot());
+describe("configuration", () => {
+	describe("semantic Release", () => {
+		test("should render the configuration", () => expect(config).toMatchSnapshot());
 	});
 });

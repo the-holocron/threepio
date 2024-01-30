@@ -29,5 +29,8 @@
   },
   "dependencies": {
     "markdownlint-cli": "^0.22.0"
+  },
+  "devDependencies": {
+    "@theholocron/eslint-config": "file:../eslint-config"
   }
 }

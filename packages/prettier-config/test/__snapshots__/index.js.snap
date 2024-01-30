@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Preset Prettier should render the configuration 1`] = `
+exports[`preset prettier should render the configuration 1`] = `
 Object {
   "arrowParens": "always",
   "bracketSpacing": true,

@@ -4,19 +4,19 @@ module.exports = function (api) {
 		env: {
 			test: {
 				plugins: [
-					'@babel/plugin-transform-runtime',
+					"@babel/plugin-transform-runtime",
 				],
 			},
 		},
 		plugins: [
-			'@babel/plugin-proposal-class-properties',
-			[ '@babel/plugin-proposal-object-rest-spread', {
+			"@babel/plugin-proposal-class-properties",
+			["@babel/plugin-proposal-object-rest-spread", {
 				useBuiltIns: true,
-			} ],
+			}],
 		],
 		presets: [
-			'@babel/preset-env',
-			'@babel/preset-react',
+			"@babel/preset-env",
+			"@babel/preset-react",
 		],
 	};
 };

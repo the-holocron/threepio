@@ -9,6 +9,9 @@
   "releases": "https://github.com/the-holocron/threepio/releases",
   "wiki": "https://github.com/the-holocron/threepio/wiki",
   "license": "GPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap -- --hoist",
     "lint": "lerna run lint",

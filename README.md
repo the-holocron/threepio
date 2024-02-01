@@ -45,7 +45,6 @@ Check the README for each configuration within the `packages` directory for spec
 - [prettier-config](./packages/prettier-config#readme) - A Prettier configuration for formatting libraries.
 - [rollup-config](./packages/rollup-config#readme) - A Rollup configuration for bundling libraries.
 - [semantic-release-config](./packages/semantic-release-config#readme) - A Semantic Release configuration for releasing code.
-- [storybook-config](./packages/storybook-config#readme) - A Storybook configuration for developing React components.
 - [stylelint-config](./packages/stylelint-config#readme) - A StyleLint configuration for writing well-formed (S)CSS.
 - [webpack-config](./packages/webpack-config#readme) - A Webpack configuration for developing and bundling libraries.
 

@@ -35,7 +35,7 @@
     "@theholocron/semantic-release-config": "file:./packages/semantic-release-config",
     "@theholocron/stylelint-config": "file:./packages/stylelint-config",
     "@theholocron/webpack-config": "file:./packages/webpack-config",
-    "lerna": "^6.4.1",
+    "lerna": "^9.0.1",
     "lerna-semantic-release": "^9.1.0"
   }
 }
